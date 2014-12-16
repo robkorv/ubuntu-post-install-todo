@@ -9,6 +9,7 @@ My task list after intalling Ubuntu
 * [ ] Activate firefox sync -> restart Firefox
 * [ ] Logon to LastPass
   * [ ] `Voorkeuren` -> `Automatisch aanmeldgegevens invullen`, bij geavanceerd `Zoeken naar ...` uitzetten
+ * [ ] Fire Gestures, disable all but `Muis gebaren`
 * [ ] Cleanup Unity bar
 * [ ] `System settings`
   * [ ] `Helderheid en vergrendelen` -> disable `Pauzestand`, `Mijn wachtwoord vereisen ...`
