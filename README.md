@@ -43,4 +43,4 @@ My task list after intalling Ubuntu
  export PATH="$HOME/.rbenv/bin:$PATH"
  eval "$(rbenv init -)"
  ```
-* [ ] `curl -sL https://deb.nodesource.com/setup | sudo bash -`
+* [ ] `curl -sL https://deb.nodesource.com/setup | sudo bash -` -> `sudo apt-get install nodejs`
