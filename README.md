@@ -33,6 +33,10 @@ My task list after intalling Ubuntu
  * [ ] `sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 94558F59` -> `sudo apt-get update` -> `sudo apt-get install spotify-client`
 * [ ] `sudo add-apt-repository ppa:rvm/smplayer` -> `sudo apt-get update` -> `sudo apt-get install smplayer`
  * [ ] `voorkeuren` -> enable `sluiten wanneer klaar...`, `video: videobestanden beeldvullen...`, `audio: Volume standaard...`, `toetsenbord: Ctrl+1 50%, +2 100%, +3 200%`
+* [ ] add `deb http://download.virtualbox.org/virtualbox/debian trusty contrib` to `/etc/apt/sources.list.d/virtualbox.list`
+ * [ ] `wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -`
+ * [ ] `sudo apt-get update` -> `sudo apt-get install virtualbox-4.3`
+* [ ] install [vagrant](https://www.vagrantup.com/downloads)
 * [ ] rbenv
  * [ ] git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
  * [ ] git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
