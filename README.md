@@ -40,7 +40,7 @@ My task list after intalling Ubuntu
   * [ ] `sudo apt-get update` -> `sudo apt-get install mono-complete` -> `mozroots --import --sync`
  * [ ] [kdiff3](http://kdiff3.sourceforge.net/)
   * [ ] `sudo apt-get install kdiff3-qt`
- * [ ] add `alias gitex='mono apps/GitExtensions/GitExtensions.exe &'` to `~/.bashrc`
+ * [ ] add `alias gitex='mono ~/apps/GitExtensions/GitExtensions.exe &'` to `~/.bashrc`
 * [ ] add `deb http://download.virtualbox.org/virtualbox/debian trusty contrib` to `/etc/apt/sources.list.d/virtualbox.list`
  * [ ] `wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -`
  * [ ] `sudo apt-get update` -> `sudo apt-get install virtualbox-4.3`
