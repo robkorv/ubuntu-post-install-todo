@@ -50,3 +50,5 @@ My task list after intalling Ubuntu
  eval "$(rbenv init -)"
  ```
 * [ ] `curl -sL https://deb.nodesource.com/setup | sudo bash -` -> `sudo apt-get install nodejs`
+* [ ] `sudo add-apt-repository ppa:team-xbmc/ppa` -> `sudo apt-get update` -> `sudo apt-get install kodi`
+ * [ ] `sudo ufw allow from 192.168.1.0/24` <- lan ip range
