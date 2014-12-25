@@ -4,7 +4,7 @@ ubuntu-post-install-todo
 My task list after intalling Ubuntu
 
 * [ ] `sudo ufw enable`
-* [ ] `sudo apt-get install ubuntu-restricted-extras vim git gdebi-core byobu autoconf bison build-essential libssl-dev libyaml-dev libreadline6 libreadline6-dev zlib1g zlib1g-dev libgsl0-dev curl`
+* [ ] `sudo apt-get install ubuntu-restricted-extras vim git gdebi-core byobu autoconf bison build-essential libssl-dev libyaml-dev libreadline6 libreadline6-dev zlib1g zlib1g-dev libgsl0-dev curl python-gpgme gnucash`
 * [ ] `sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora`
 * [ ] `sudo apt-get update` -> `sudo apt-get dist-upgrade`
 * [ ] Activate firefox sync -> restart Firefox
@@ -52,3 +52,4 @@ My task list after intalling Ubuntu
 * [ ] `curl -sL https://deb.nodesource.com/setup | sudo bash -` -> `sudo apt-get install nodejs`
 * [ ] `sudo add-apt-repository ppa:team-xbmc/ppa` -> `sudo apt-get update` -> `sudo apt-get install kodi`
  * [ ] `sudo ufw allow from 192.168.1.0/24` <- lan ip range
+* [ ] [dropbox](https://www.dropbox.com/downloading?src=index)
