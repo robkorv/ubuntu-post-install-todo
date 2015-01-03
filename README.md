@@ -1,7 +1,7 @@
 ubuntu-post-install-todo
 ========================
 
-My task list after intalling Ubuntu
+My task list after intalling Ubuntu 14.04
 
 * [ ] `sudo ufw enable`
 * [ ] `sudo apt-get install ubuntu-restricted-extras vim git gdebi-core byobu autoconf bison build-essential libssl-dev libyaml-dev libreadline6 libreadline6-dev zlib1g zlib1g-dev libgsl0-dev curl python-gpgme gnucash`
@@ -53,3 +53,8 @@ My task list after intalling Ubuntu
 * [ ] `sudo add-apt-repository ppa:team-xbmc/ppa` -> `sudo apt-get update` -> `sudo apt-get install kodi`
  * [ ] `sudo ufw allow from 192.168.1.0/24` <- lan ip range
 * [ ] [dropbox](https://www.dropbox.com/downloading?src=index)
+* [ ] [Wireless Xbox 360 controller reciever fix](http://www.omgubuntu.co.uk/2014/06/ubuntu-xbox-controller-support-xboxdrv-driver) may not be needed in next versions of Ubuntu
+ * [ ] `sudo apt-add-repository ppa:rael-gc/ubuntu-xboxdrv`
+ * [ ] `sudo apt-get update`
+ * [ ] `sudo apt-get install ubuntu-xboxdrv`
+ * [ ] reboot!
