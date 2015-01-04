@@ -58,3 +58,7 @@ My task list after intalling Ubuntu 14.04
  * [ ] `sudo apt-get update`
  * [ ] `sudo apt-get install ubuntu-xboxdrv`
  * [ ] reboot!
+* [ ] [Indicator for Lock Keys](http://www.omgubuntu.co.uk/2014/06/ubuntu-xbox-controller-support-xboxdrv-driver) will be in the universe repo from Ubuntu 15.04 and on
+ * [ ] `sudo apt-add-repository ppa:tsbarnes/indicator-keylock`
+ * [ ] `sudo apt-get update`
+ * [ ] `sudo apt-get install indicator-keylock`
