@@ -58,8 +58,13 @@ My task list after intalling Ubuntu 14.04
  * [ ] `sudo apt-get update`
  * [ ] `sudo apt-get install ubuntu-xboxdrv`
  * [ ] reboot!
-* [ ] [Indicator for Lock Keys](http://www.omgubuntu.co.uk/2014/06/ubuntu-xbox-controller-support-xboxdrv-driver) will be in the universe repo from Ubuntu 15.04 and on
+* [ ] [Indicator for Lock Keys](http://packages.ubuntu.com/search?keywords=indicator-keylock) will be in the universe repo from Ubuntu 15.04 and on
  * [ ] `sudo apt-add-repository ppa:tsbarnes/indicator-keylock`
  * [ ] `sudo apt-get update`
  * [ ] `sudo apt-get install indicator-keylock`
+ * [ ] logout and login again
+* [ ] [Linux devices manager for the Logitech Unifying Receiver](https://github.com/pwr/Solaar) will be in the universe repo from Ubuntu 15.04 and on
+ * [ ] `sudo apt-add-repository ppa:daniel.pavel/solaar`
+ * [ ] `sudo apt-get update`
+ * [ ] `sudo apt-get install solaar-gnome3`
  * [ ] logout and login again
