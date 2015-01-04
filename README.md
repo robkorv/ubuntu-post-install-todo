@@ -62,3 +62,4 @@ My task list after intalling Ubuntu 14.04
  * [ ] `sudo apt-add-repository ppa:tsbarnes/indicator-keylock`
  * [ ] `sudo apt-get update`
  * [ ] `sudo apt-get install indicator-keylock`
+ * [ ] logout and login again
