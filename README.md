@@ -5,10 +5,7 @@ My task list after intalling Ubuntu 14.04
 
 * [ ] `sudo ufw enable`
 * [ ] `sudo apt-get install ubuntu-restricted-extras vim git gdebi-core byobu autoconf bison build-essential libssl-dev libyaml-dev libreadline6 libreadline6-dev zlib1g zlib1g-dev libgsl0-dev curl python-gpgme gnucash`
-* [ ] `sudo add-apt-repository ppa:ubuntu-mozilla-daily/firefox-aurora`
-* [ ] `sudo apt-get update` -> `sudo apt-get dist-upgrade`
-* [ ] Activate firefox sync -> restart Firefox
-* [ ] Logon to LastPass
+* [ ] Start firefox and Logon to LastPass
   * [ ] `Voorkeuren` -> `Automatisch aanmeldgegevens invullen`, bij geavanceerd `Zoeken naar ...` uitzetten
  * [ ] Fire Gestures, disable all but `Muis gebaren`
 * [ ] Cleanup Unity bar
