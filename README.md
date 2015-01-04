@@ -8,6 +8,7 @@ My task list after intalling Ubuntu 14.04
 * [ ] Start firefox and Logon to LastPass
   * [ ] `Voorkeuren` -> `Automatisch aanmeldgegevens invullen`, bij geavanceerd `Zoeken naar ...` uitzetten
  * [ ] Fire Gestures, disable all but `Muis gebaren`
+ * [ ] install [HTML validator](http://users.skynet.be/mgueury/mozilla/index.html), choose serial and disable it by default after installation
 * [ ] Cleanup Unity bar
 * [ ] `System settings`
   * [ ] `Helderheid en vergrendelen` -> disable `Pauzestand`, `Mijn wachtwoord vereisen ...`
