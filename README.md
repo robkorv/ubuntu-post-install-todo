@@ -66,3 +66,7 @@ My task list after intalling Ubuntu 14.04
  * [ ] `sudo apt-get update`
  * [ ] `sudo apt-get install solaar-gnome3`
  * [ ] logout and login again
+* [ ] [gimp](http://www.gimp.org/)
+ * [ ] `sudo add-apt-repository ppa:otto-kesselgulasch/gimp`
+ * [ ] `sudo apt-get update`
+ * [ ] `sudo apt-get install gimp`
