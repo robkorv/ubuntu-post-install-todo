@@ -70,3 +70,5 @@ My task list after intalling Ubuntu 14.04
  * [ ] `sudo add-apt-repository ppa:otto-kesselgulasch/gimp`
  * [ ] `sudo apt-get update`
  * [ ] `sudo apt-get install gimp`
+ * [ ] `bewerken` -> `voorkeuren` -> `interface` -> `taal` = `Engels [en_US]` -> restart gimp
+ * [ ] `window` -> `single window mode`
