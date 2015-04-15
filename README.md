@@ -51,6 +51,7 @@ My task list after intalling Ubuntu 14.04
 * [ ] `sudo add-apt-repository ppa:team-xbmc/ppa` -> `sudo apt-get update` -> `sudo apt-get install kodi`
  * [ ] `sudo ufw allow from 192.168.1.0/24` <- lan ip range
 * [ ] [dropbox](https://www.dropbox.com/downloading?src=index)
+  * [ ] before installing `sudo apt-get install python-gpgme`
 * [ ] [Wireless Xbox 360 controller reciever fix](http://www.omgubuntu.co.uk/2014/06/ubuntu-xbox-controller-support-xboxdrv-driver) may not be needed in next versions of Ubuntu
  * [ ] `sudo apt-add-repository ppa:rael-gc/ubuntu-xboxdrv`
  * [ ] `sudo apt-get update`
