@@ -26,8 +26,6 @@ My task list after intalling Ubuntu 14.04
  * [ ] the same for [nos](http://nos.nl/)
 * [ ] [generate ssh](https://help.github.com/articles/generating-ssh-keys/) -> [add ssh](https://github.com/settings/ssh)
 * [ ] `git config --global user.name "Robbert Korving"` -> `git config --global user.email "r.korving@gmail.com"` -> `git config --global core.editor vim`
-* [ ] `sudo add-apt-repository ppa:webupd8team/atom` -> `sudo apt-get update` -> `sudo apt-get install atom`
- * [ ] `apm login` -> `apm stars -i`
 * [ ] add `deb http://repository.spotify.com stable non-free` to `/etc/apt/sources.list.d/spotify.list`
  * [ ] `sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 94558F59` -> `sudo apt-get update` -> `sudo apt-get install spotify-client`
 * [ ] `sudo add-apt-repository ppa:rvm/smplayer` -> `sudo apt-get update` -> `sudo apt-get install smplayer`
@@ -41,11 +39,6 @@ My task list after intalling Ubuntu 14.04
  * [ ] `sudo ufw allow from 192.168.1.0/24` <- lan ip range
 * [ ] [dropbox](https://www.dropbox.com/downloading?src=index)
   * [ ] before installing `sudo apt-get install python-gpgme`
-* [ ] [Wireless Xbox 360 controller reciever fix](http://www.omgubuntu.co.uk/2014/06/ubuntu-xbox-controller-support-xboxdrv-driver) may not be needed in next versions of Ubuntu
- * [ ] `sudo apt-add-repository ppa:rael-gc/ubuntu-xboxdrv`
- * [ ] `sudo apt-get update`
- * [ ] `sudo apt-get install ubuntu-xboxdrv`
- * [ ] reboot!
 * [ ] [Indicator for Lock Keys](http://packages.ubuntu.com/search?keywords=indicator-keylock) will be in the universe repo from Ubuntu 15.04 and on
  * [ ] `sudo apt-add-repository ppa:tsbarnes/indicator-keylock`
  * [ ] `sudo apt-get update`
