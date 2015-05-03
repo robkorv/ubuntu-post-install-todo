@@ -34,21 +34,9 @@ My task list after intalling Ubuntu 14.04
  * [ ] `voorkeuren` -> enable `sluiten wanneer klaar...`, `video: videobestanden beeldvullen...`, `audio: Volume standaard...`, `toetsenbord: Ctrl+1 50%, +2 100%, +3 200%`
 * [ ] add `deb http://download.virtualbox.org/virtualbox/debian trusty contrib` to `/etc/apt/sources.list.d/virtualbox.list`
  * [ ] `wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -`
- * [ ] `sudo apt-get update` -> `sudo apt-get install virtualbox-4.3`
+ * [ ] `sudo apt-get update` -> `sudo apt-get install virtualbox`
 * [ ] install [vagrant](https://www.vagrantup.com/downloads)
-* [ ] rbenv
- * [ ] git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
- * [ ] git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
- * [ ] git clone https://github.com/sstephenson/rbenv-gem-rehash.git ~/.rbenv/plugins/rbenv-gem-rehash
- * [ ] git clone https://github.com/ianheggie/rbenv-binstubs.git ~/.rbenv/plugins/rbenv-binstubs
- * [ ] git clone https://github.com/rkh/rbenv-update.git ~/.rbenv/plugins/rbenv-update
- * [ ] `~/.bashrc`
- ```bash
- # rbenv
- export PATH="$HOME/.rbenv/bin:$PATH"
- eval "$(rbenv init -)"
- ```
-* [ ] `curl -sL https://deb.nodesource.com/setup | sudo bash -` -> `sudo apt-get install nodejs`
+* [ ] `curl -sL https://deb.nodesource.com/setup_iojs_1.x | sudo bash -` -> `sudo apt-get install iojs`
 * [ ] `sudo add-apt-repository ppa:team-xbmc/ppa` -> `sudo apt-get update` -> `sudo apt-get install kodi`
  * [ ] `sudo ufw allow from 192.168.1.0/24` <- lan ip range
 * [ ] [dropbox](https://www.dropbox.com/downloading?src=index)
@@ -81,3 +69,6 @@ My task list after intalling Ubuntu 14.04
  # git-cola
  export PATH="$HOME/compound/git-cola/bin:$PATH"
  ```
+ * [ ] [thefuck](https://github.com/nvbn/thefuck)
+  * [ ] `sudo apt-get install python-dev` -> `sudo pip install the fuck`
+  * [ ] `alias fuck='eval $(thefuck $(fc -ln -1))'` in `~/.bashrc`
