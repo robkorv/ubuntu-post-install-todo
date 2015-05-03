@@ -62,6 +62,6 @@ My task list after intalling Ubuntu 14.04
  # git-cola
  export PATH="$HOME/compound/git-cola/bin:$PATH"
  ```
- * [ ] [thefuck](https://github.com/nvbn/thefuck)
-  * [ ] `sudo apt-get install python-dev` -> `sudo pip install the fuck`
-  * [ ] `alias fuck='eval $(thefuck $(fc -ln -1))'` in `~/.bashrc`
+* [ ] [thefuck](https://github.com/nvbn/thefuck)
+ * [ ] `sudo apt-get install python-dev` -> `sudo pip install the fuck`
+ * [ ] `alias fuck='eval $(thefuck $(fc -ln -1))'` in `~/.bashrc`
