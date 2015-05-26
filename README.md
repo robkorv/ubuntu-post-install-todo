@@ -30,9 +30,10 @@ My task list after intalling Ubuntu 14.04
  * [ ] `sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 94558F59` -> `sudo apt-get update` -> `sudo apt-get install spotify-client`
 * [ ] `sudo add-apt-repository ppa:rvm/smplayer` -> `sudo apt-get update` -> `sudo apt-get install smplayer`
  * [ ] `voorkeuren` -> enable `sluiten wanneer klaar...`, `video: videobestanden beeldvullen...`, `audio: Volume standaard...`, `toetsenbord: Ctrl+1 50%, +2 100%, +3 200%`
-* [ ] add `deb http://download.virtualbox.org/virtualbox/debian trusty contrib` to `/etc/apt/sources.list.d/virtualbox.list`
+* [ ] [virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions)
+ * [ ] add `deb http://download.virtualbox.org/virtualbox/debian trusty contrib` to `/etc/apt/sources.list.d/virtualbox.list`
  * [ ] `wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -`
- * [ ] `sudo apt-get update` -> `sudo apt-get install virtualbox`
+ * [ ] `sudo apt-get update` -> `sudo apt-get install virtualbox-4.3`
 * [ ] install [vagrant](https://www.vagrantup.com/downloads)
 * [ ] `curl -sL https://deb.nodesource.com/setup_iojs_1.x | sudo bash -` -> `sudo apt-get install iojs`
 * [ ] `sudo add-apt-repository ppa:team-xbmc/ppa` -> `sudo apt-get update` -> `sudo apt-get install kodi`
