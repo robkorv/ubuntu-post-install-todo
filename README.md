@@ -65,4 +65,9 @@ My task list after intalling Ubuntu 14.04
  ```
 * [ ] [thefuck](https://github.com/nvbn/thefuck)
  * [ ] `sudo apt-get install python-dev` -> `sudo pip install the fuck`
- * [ ] `alias fuck='eval $(thefuck $(fc -ln -1))'` in `~/.bashrc`
+ * [ ] add the following in `~/.bashrc`
+ ```bash
+ # the fuck
+ export THEFUCK_REQUIRE_CONFIRMATION=true
+ alias fuck='eval $(thefuck $(fc -ln -1))'
+ ```
