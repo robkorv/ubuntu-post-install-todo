@@ -69,5 +69,5 @@ My task list after intalling Ubuntu 14.04
  ```bash
  # the fuck
  export THEFUCK_REQUIRE_CONFIRMATION=true
- alias fuck='eval $(thefuck $(fc -ln -1))'
+ eval "$(thefuck --alias)"
  ```
