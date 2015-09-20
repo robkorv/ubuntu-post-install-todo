@@ -64,7 +64,7 @@ My task list after intalling Ubuntu 14.04
  export PATH="$HOME/compound/git-cola/bin:$PATH"
  ```
 * [ ] [thefuck](https://github.com/nvbn/thefuck)
- * [ ] `sudo apt-get install python-dev` -> `sudo pip install the fuck`
+ * [ ] `sudo apt-get install python-dev` -> `sudo pip install thefuck`
  * [ ] add the following in `~/.bashrc`
  ```bash
  # the fuck
