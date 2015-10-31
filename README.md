@@ -30,9 +30,6 @@ My task list after intalling Ubuntu 14.04
 * [ ] [smplayer](http://smplayer.sourceforge.net/en/downloads) -> `sudo apt-get update` -> `sudo apt-get install smplayer`
  * [ ] `voorkeuren` -> enable `sluiten wanneer klaar...`, `video: videobestanden beeldvullen...`, `audio: Volume standaard...`, `toetsenbord: Ctrl+1 50%, +2 100%, +3 200%`
 * [ ] [virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions)
- * [ ] add `deb http://download.virtualbox.org/virtualbox/debian trusty contrib` to `/etc/apt/sources.list.d/virtualbox.list`
- * [ ] `wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -`
- * [ ] `sudo apt-get update` -> `sudo apt-get install virtualbox-5.0`
 * [ ] install [vagrant](https://www.vagrantup.com/downloads)
 * [ ] `curl -sL https://deb.nodesource.com/setup_iojs_1.x | sudo bash -` -> `sudo apt-get install iojs`
 * [ ] `sudo add-apt-repository ppa:team-xbmc/ppa` -> `sudo apt-get update` -> `sudo apt-get install kodi`
