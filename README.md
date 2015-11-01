@@ -32,7 +32,7 @@ My task list after intalling Ubuntu 14.04
 * [ ] [virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions)
 * [ ] install [vagrant](https://www.vagrantup.com/downloads)
 * [ ] [nodejs](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
-* [ ] [kodi](http://kodi.wiki/view/Official_Ubuntu_PPA)
+* [ ] [kodi](http://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux#Installing_Kodi_on_Ubuntu-based_distributions)
  * [ ] `sudo ufw allow from 192.168.1.0/24` <- lan ip range
 * [ ] [dropbox](https://www.dropbox.com/downloading?src=index)
   * [ ] before installing `sudo apt-get install python-gpgme`
