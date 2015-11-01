@@ -4,7 +4,7 @@ ubuntu-post-install-todo
 My task list after intalling Ubuntu 14.04
 
 * [ ] `sudo ufw enable`
-* [ ] `sudo apt-get install ubuntu-restricted-extras vim git gdebi-core byobu autoconf bison build-essential libssl-dev libyaml-dev libreadline6 libreadline6-dev zlib1g zlib1g-dev libgsl0-dev curl python-gpgme gnucash`
+* [ ] `sudo apt-get install ubuntu-restricted-extras vim git gdebi-core byobu autoconf bison build-essential libssl-dev libyaml-dev libreadline6 libreadline6-dev zlib1g zlib1g-dev libgsl0-dev curl python-gpgme gnucash python-dev`
 * [ ] Start firefox and Logon to LastPass
   * [ ] `Voorkeuren` -> `Automatisch aanmeldgegevens invullen`, bij geavanceerd `Zoeken naar ...` uitzetten
  * [ ] Fire Gestures, disable all but `Muis gebaren`
@@ -54,7 +54,7 @@ My task list after intalling Ubuntu 14.04
  * [ ] `window` -> `single window mode`
 * [ ] [git-cola](https://github.com/git-cola/git-cola#run-from-source)
 * [ ] [thefuck](https://github.com/nvbn/thefuck)
- * [ ] `sudo apt-get install python-dev` -> `sudo pip install thefuck`
+ * [ ] `sudo pip install thefuck`
  * [ ] add the following in `~/.bashrc`
  ```bash
  # the fuck
