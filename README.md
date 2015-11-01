@@ -52,13 +52,7 @@ My task list after intalling Ubuntu 14.04
  * [ ] `sudo apt-get install gimp`
  * [ ] `bewerken` -> `voorkeuren` -> `interface` -> `taal` = `Engels [en_US]` -> restart gimp
  * [ ] `window` -> `single window mode`
-* [ ] [git-cola](https://github.com/git-cola/git-cola)
- * [ ] `cd compound` -> `git clone https://github.com/git-cola/git-cola.git`
- * [ ] `~/.bashrc`, the following exposes `git cola` and `git dag` as terminal commands
- ```bash
- # git-cola
- export PATH="$HOME/compound/git-cola/bin:$PATH"
- ```
+* [ ] [git-cola](https://github.com/git-cola/git-cola#run-from-source)
 * [ ] [thefuck](https://github.com/nvbn/thefuck)
  * [ ] `sudo apt-get install python-dev` -> `sudo pip install thefuck`
  * [ ] add the following in `~/.bashrc`
