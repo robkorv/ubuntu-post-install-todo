@@ -53,11 +53,4 @@ My task list after intalling Ubuntu 14.04
  * [ ] `bewerken` -> `voorkeuren` -> `interface` -> `taal` = `Engels [en_US]` -> restart gimp
  * [ ] `window` -> `single window mode`
 * [ ] [git-cola](https://github.com/git-cola/git-cola#run-from-source)
-* [ ] [thefuck](https://github.com/nvbn/thefuck)
- * [ ] `sudo pip install thefuck`
- * [ ] add the following in `~/.bashrc`
- ```bash
- # the fuck
- export THEFUCK_REQUIRE_CONFIRMATION=true
- eval "$(thefuck --alias)"
- ```
+* [ ] [thefuck](https://github.com/nvbn/thefuck#manual-installation)
