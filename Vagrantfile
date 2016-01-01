@@ -8,6 +8,11 @@ Vagrant.configure(2) do |config|
     # enable virtualbox gui... because it's a desktop! :)
     desktop.vm.provider 'virtualbox' do |virtualbox|
       virtualbox.gui = true
+      virtualbox.memory = 1024 * 2
+      virtualbox.cpus = 2
+      virtualbox.customize ['modifyvm', :id, '--vram', '64']
+      virtualbox.customize ['modifyvm', :id, '--accelerate3d', 'on']
+      virtualbox.customize ['modifyvm', :id, '--accelerate2dvideo', 'on']
     end
 
     # load Ubuntu 14.04 LTS (Trusty Tahr)
