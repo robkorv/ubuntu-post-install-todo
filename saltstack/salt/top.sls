@@ -9,3 +9,5 @@ base:
     - rubocop
     - ubuntu-desktop
     - autologin-user
+    - gnome-terminal
+    - google-chrome

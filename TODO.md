@@ -3,8 +3,6 @@ ubuntu-post-install-todo
 
 My task list after intalling Ubuntu 14.04
 
-* [ ] `sudo ufw enable`
-* [ ] `sudo apt-get install ubuntu-restricted-extras vim git gdebi-core byobu autoconf bison build-essential libssl-dev libyaml-dev libreadline6 libreadline6-dev zlib1g zlib1g-dev libgsl0-dev curl python-gpgme gnucash python-dev python-pip ruby ruby-dev kdiff3-qt`
 * [ ] Start firefox and Logon to LastPass
   * [ ] `Voorkeuren` -> `Automatisch aanmeldgegevens invullen`, bij geavanceerd `Zoeken naar ...` uitzetten
  * [ ] Fire Gestures, disable all but `Muis gebaren`
@@ -15,10 +13,6 @@ My task list after intalling Ubuntu 14.04
   * [ ] `Schermen` disable `Plakranden`
   * [ ] `Gebruikers accounts` -> enable `Automatisch aanmelden`
   * [ ] `Software & Updates` -> `Extra stuurprogramma's` enable tested binary driver
-* [ ] `sudo vi /etc/default/grub` -> `GRUB_TIMEOUT=5`, `GRUB_CMDLINE_LINUX_DEFAULT=""`, `GRUB_TERMINAL=console`
-* [ ] `sudo update-grub` -> `sudo reboot`
-* [ ] use byobu as default shell -> `ctrl+alt+t` -> profiel bewerken -> opdracht aangepast `/usr/bin/byobu`
-* [ ] Install [Chrome](https://www.google.nl/chrome/browser/desktop/index.html)
 * [ ] Start `google-chrome`
  * [ ] In settings disable `Aanbieden om je internet wachtwoorden...`, `Aanbieden om pagina's te vertalen...`
  * [ ] login to [Netflix](http://www.netflix.com/), create a shortcut for it

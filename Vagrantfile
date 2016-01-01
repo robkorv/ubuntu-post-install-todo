@@ -12,6 +12,7 @@ Vagrant.configure(2) do |config|
       virtualbox.cpus = 2
       virtualbox.customize ['modifyvm', :id, '--vram', '64']
       virtualbox.customize ['modifyvm', :id, '--accelerate3d', 'on']
+      virtualbox.customize ['modifyvm', :id, '--clipboard', 'bidirectional']
     end
 
     # load Ubuntu 14.04 LTS (Trusty Tahr)
