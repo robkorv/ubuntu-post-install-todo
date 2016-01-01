@@ -1,5 +1,5 @@
 dutch language:
-  pkg.latest:
+  pkg.installed:
     - pkgs:
       - language-pack-nl
       - wdutch
