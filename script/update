@@ -8,12 +8,15 @@ cd "$(dirname "$0")/.."
 
 script/bootstrap
 
-echo "==> Removing current salt files"
+echo "==> Removing current saltstack"
 sudo rm -Rf /srv/salt
-echo "==> Copying salt files"
+sudo rm -Rf /srv/pillar
+echo "==> Copying saltstack"
 sudo cp -Rf saltstack/salt /srv/salt
-echo "==> Setting access permissions to salt files"
+sudo cp -Rf saltstack/pillar /srv/pillar
+echo "==> Setting access permissions to saltstack"
 sudo chmod -R 0644 /srv/salt
+sudo chmod -R 0644 /srv/pillar
 
 echo "==> Running salt-call..."
 sudo salt-call state.highstate

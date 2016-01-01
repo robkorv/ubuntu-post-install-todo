@@ -1,3 +1,6 @@
 # Vagrant
 .bundle
 .vagrant
+
+# keep dirs with .gitkeep in them
+!.gitkeep

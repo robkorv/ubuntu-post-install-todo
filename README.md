@@ -43,4 +43,5 @@ inside a secure shell with the box.
 * https://github.com/github/scripts-to-rule-them-all
 * https://docs.saltstack.com/en/2015.5/
 * https://docs.saltstack.com/en/2015.5/topics/best_practices.html
+* https://docs.saltstack.com/en/2015.5/topics/development/conventions/formulas.html#conventions-formula
 * https://docs.saltstack.com/en/2015.5/ref/states/all/index.html

@@ -1,6 +1,7 @@
 /etc/lightdm/lightdm.conf:
   file.managed:
-    - source: salt://autologin-user/files/lightdm.conf
+    - source: salt://user/files/lightdm.jinja
+    - template: jinja
     - user: root
     - group: root
     - mode: 0644

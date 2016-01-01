@@ -5,9 +5,8 @@ base:
     - timezone
     - locale
     - grub
+    - ubuntu-desktop
     - packages
     - rubocop
-    - ubuntu-desktop
-    - autologin-user
-    - gnome-terminal
     - google-chrome
+    - user
