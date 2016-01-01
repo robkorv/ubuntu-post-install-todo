@@ -15,11 +15,14 @@ I just started to automate the process with [SaltStack](https://github.com/salts
 
 ### Fire it up
 
-* `vagrant up` brings the box up, it will bootstrap on the first up, update on a next up
-* `vagrant provision --provision-with update` will update a running box
-* `vagrant ssh` starts a secure shell connection with a running box
-* `vagrant halt` gracefully brings the box to a halt
-* `vagrant destroy` removes all traces of the box, bootstrap will start again on the next up
+> * `vagrant up` This command creates and configures guest machines according to your Vagrantfile.
+> * `vagrant provision --provision-with update` Runs the update provisioner against the running Vagrant managed machine.
+> * `vagrant ssh` This will SSH into a running Vagrant machine and give you access to a shell.
+> * `vagrant halt` This command shuts down the running machine Vagrant is managing.
+> * `vagrant reload` The equivalent of running a halt followed by an up.
+> * `vagrant destroy` This command stops the running machine Vagrant is managing and destroys all resources that were created during the machine creation process.
+>
+> -- [vagrant - Command-Line Interface](https://docs.vagrantup.com/v2/cli/index.html)
 
 
 ## Inner workings
@@ -32,7 +35,7 @@ inside a secure shell with the box.
 > * `script/update` is used to update the project after a fresh pull.
 > * `script/test` is used to run the test suite of the application.
 >
-> -- [scripts-to-rule-them-all](https://github.com/github/scripts-to-rule-them-all/blob/master/README.md#the-scripts)
+> -- [github - scripts-to-rule-them-all](https://github.com/github/scripts-to-rule-them-all/blob/master/README.md#the-scripts)
 
 
 ## Inspired by

@@ -4,5 +4,6 @@ base:
     - timezone
     - locale
     - packages
-    - ubuntu-desktop
     - rubocop
+    - ubuntu-desktop
+    - autologin-user
