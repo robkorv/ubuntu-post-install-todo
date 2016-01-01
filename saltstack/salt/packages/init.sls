@@ -1,0 +1,2 @@
+shellcheck:
+  pkg.latest

@@ -1,0 +1,19 @@
+#!/bin/sh
+
+# script/update: Update application to run for its current checkout.
+
+set -e
+
+cd "$(dirname "$0")/.."
+
+script/bootstrap
+
+echo "==> Removing current salt files"
+sudo rm -Rf /srv/salt
+echo "==> Copying salt files"
+sudo cp -Rf saltstack/salt /srv/salt
+echo "==> Setting access permissions to salt files"
+sudo chmod -R 0644 /srv/salt
+
+echo "==> Running salt-call..."
+sudo salt-call state.highstate

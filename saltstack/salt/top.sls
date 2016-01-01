@@ -1,0 +1,5 @@
+base:
+  '*':
+    - update
+    - packages
+    - rubocop
