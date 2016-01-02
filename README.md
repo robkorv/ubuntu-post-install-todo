@@ -15,6 +15,7 @@ I just started to automate the process with [SaltStack](https://github.com/salts
 
 ### Fire it up
 
+> * `vagrant plugin install vagrant-cachier` installs [vagrant-cachier](https://github.com/fgrehm/vagrant-cachier)
 > * `vagrant up` This command creates and configures guest machines according to your Vagrantfile.
 > * `vagrant provision --provision-with update` Runs the update provisioner against the running Vagrant managed machine.
 > * `vagrant ssh` This will SSH into a running Vagrant machine and give you access to a shell.
