@@ -13,6 +13,7 @@ My task list after intalling Ubuntu 14.04
   * [ ] `Schermen` disable `Plakranden`
   * [ ] `Gebruikers accounts` -> enable `Automatisch aanmelden`
   * [ ] `Software & Updates` -> `Extra stuurprogramma's` enable tested binary driver
+* [ ] use byobu as default shell -> `ctrl+alt+t` -> profiel bewerken -> opdracht aangepast `/usr/bin/byobu`
 * [ ] Start `google-chrome`
  * [ ] In settings disable `Aanbieden om je internet wachtwoorden...`, `Aanbieden om pagina's te vertalen...`
  * [ ] login to [Netflix](http://www.netflix.com/), create a shortcut for it
