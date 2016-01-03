@@ -7,6 +7,13 @@ set -e
 
 cd "$(dirname "$0")/.."
 
+if [ -n "$(which add-apt-repository)" ]; then
+    echo "==> Add-apt-repository command available"
+else
+    echo "==> Installing software-properties-common"
+    sudo apt-get -y software-properties-common
+fi
+
 # https://docs.saltstack.com/en/2015.5/topics/installation/ubuntu.html
 if [ -f "/etc/apt/sources.list.d/saltstack-salt-trusty.list" ]; then
     echo "==> SaltStack repository available"

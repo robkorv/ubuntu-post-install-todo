@@ -1,0 +1,8 @@
+user:
+  name: John Doe
+  email: your_email@example.org
+core:
+  editor: vim
+merge:
+  tool: kdiff3
+whom: vagrant

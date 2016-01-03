@@ -1,3 +1,7 @@
 # install rubocop
+ruby:
+  pkg.installed
 rubocop:
-  gem.installed
+  gem.installed:
+    - require:
+      - pkg: ruby

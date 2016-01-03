@@ -9,4 +9,8 @@ base:
     - packages
     - rubocop
     - google-chrome
+    - virtualbox
+    - vagrant
+    - git-config
+    - github-ssh
     - user

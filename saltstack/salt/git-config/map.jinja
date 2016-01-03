@@ -1,0 +1,3 @@
+{## Start with  defaults from defaults.yaml ##}
+{% import_yaml "git-config/defaults.yaml" as default_config %}
+{% set config = salt['pillar.get']('git-config', default=default_config, merge=True) %}

@@ -1,2 +1,11 @@
 user:
   vagrant
+git-config:
+  user:
+    name: John Doe
+    email: email@example.org
+  core:
+    editor: vim
+  merge:
+    tool: kdiff3
+  whom: vagrant

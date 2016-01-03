@@ -7,3 +7,4 @@ general packages:
       - git
       - gdebi-core
       - byobu
+      - kdiff3-qt

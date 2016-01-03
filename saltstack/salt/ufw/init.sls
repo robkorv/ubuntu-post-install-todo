@@ -1,4 +1,5 @@
 sudo ufw allow OpenSSH:
-  cmd.run
+  cmd.run:
+    - onlyif: sudo ufw app info OpenSSH
 sudo ufw --force enable:
   cmd.run
