@@ -1,0 +1,2 @@
+include:
+  - autologin.autologin-user

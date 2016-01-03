@@ -19,7 +19,6 @@ My task list after intalling Ubuntu 14.04
  * [ ] login to [Netflix](http://www.netflix.com/), create a shortcut for it
  * [ ] edit `~/.local/share/applications//chrome-http___www.netflix.com_WiHome.desktop`, change `--app=` to `--kiosk `
  * [ ] the same for [nos](http://nos.nl/)
-* [ ] [git-up](https://github.com/aanand/git-up#install)
 * [ ] [spotify](https://www.spotify.com/nl/download/linux)
 * [ ] [smplayer](http://smplayer.sourceforge.net/en/downloads) -> `sudo apt-get update` -> `sudo apt-get install smplayer`
  * [ ] `voorkeuren` -> enable `sluiten wanneer klaar...`, `video: videobestanden beeldvullen...`, `audio: Volume standaard...`, `toetsenbord: Ctrl+1 50%, +2 100%, +3 200%`
