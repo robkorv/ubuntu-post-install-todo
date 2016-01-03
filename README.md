@@ -41,7 +41,7 @@ inside a secure shell with the box.
 
 ## Using pillar to provision outside of Vagrant
 
-The defaults are for the Vagrant box, but you can use your own. See [](saltstack/pillar.example).
+The defaults are for the Vagrant box, but you can use your own. See [saltstack/pillar.example](https://github.com/robkorv/ubuntu-post-install-todo/blob/master/saltstack/pillar.example).
 Be sure that you only run the bash files in `script` outside Vagrant on a fresh [Ubuntu netboot 14.04](http://nl.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/installer-amd64/current/images/netboot/) or on a system that is already provisioned with this salt repo.
 
 * create `top.sls` in `saltstack/pillar`
