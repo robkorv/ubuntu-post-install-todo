@@ -39,6 +39,33 @@ inside a secure shell with the box.
 > -- [github - scripts-to-rule-them-all](https://github.com/github/scripts-to-rule-them-all/blob/master/README.md#the-scripts)
 
 
+## Using pillar to provision outside of Vagrant
+
+The defaults are for the Vagrant box, but you can use your own. See [](saltstack/pillar.example).
+Be sure that you only run the bash files in `script` outside Vagrant on a fresh [Ubuntu netboot 14.04](http://nl.archive.ubuntu.com/ubuntu/dists/trusty-updates/main/installer-amd64/current/images/netboot/) or on a system that is already provisioned with this salt repo.
+
+* create `top.sls` in `saltstack/pillar`
+```yaml
+base:
+  '*':
+    - data
+```
+* create `data.sls` in `saltstack/pillar`
+```yaml
+user:
+  vagrant
+git-config:
+  user:
+    name: John Doe
+    email: email@example.org
+  core:
+    editor: vim
+  merge:
+    tool: kdiff3
+  whom: vagrant
+```
+
+
 ## Inspired by
 
 * https://github.com/github/scripts-to-rule-them-all
