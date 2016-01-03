@@ -12,10 +12,10 @@ base:
     - grub
     # install unity
     - ubuntu-desktop
-    # cleans unity start bar
-    - cleanup-unity-launcher
     # fixes unity network indicator for unmanaged lan
     - network-indicator
+    # sets autologin for ubuntu-desktop
+    - autologin
     # installs ubuntu packages
     - packages
     # installs ruby packages
@@ -30,5 +30,7 @@ base:
     - git-config
     # generates ssh keys to add in git-hub account
     - github-ssh
-    # sets autologin for ubuntu-desktop
-    - autologin
+    # installs spotify
+    - spotify
+    # cleans unity start bar
+    - cleanup-unity-launcher

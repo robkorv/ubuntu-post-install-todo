@@ -1,3 +1,6 @@
+# https://help.github.com/articles/generating-ssh-keys/#step-2-generate-a-new-ssh-key
+# http://linux.die.net/man/1/ssh-keygen
+
 {% set user = salt['pillar.get']('user', 'vagrant') %}
 {% set email = salt['pillar.get']('git-config:user:email', 'your_email@example.com') %}
 

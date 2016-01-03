@@ -1,3 +1,4 @@
+# https://wiki.ubuntu.com/LightDM#Setting_an_Automatic_Login
 /etc/lightdm/lightdm.conf:
   file.managed:
     - source: salt://autologin/files/lightdm.jinja

@@ -1,3 +1,5 @@
+# http://www.ubuntuupdates.org/ppa/google_chrome?dist=stable
+# https://www.google.com/linuxrepositories/
 deb http://dl.google.com/linux/chrome/deb/ stable main:
   pkgrepo.managed:
     - file: /etc/apt/sources.list.d/google-chrome.list
