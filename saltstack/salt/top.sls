@@ -6,6 +6,7 @@ base:
     - locale
     - grub
     - ubuntu-desktop
+    - cleanup-unity-launcher
     - packages
     - rubocop
     - google-chrome
