@@ -1,0 +1,10 @@
+total 36K
+drwxr-xr-x 5 vagrant vagrant 4.0K Jan  4 20:23 .
+drwxr-xr-x 4 root    root    4.0K Jan  4 20:22 ..
+-rw------- 1 vagrant vagrant    5 Jan  4 20:23 .bash_history
+-rw-r--r-- 1 vagrant vagrant  220 Apr  9  2014 .bash_logout
+-rw-r--r-- 1 vagrant vagrant 3.6K Apr  9  2014 .bashrc
+drwx------ 2 vagrant vagrant 4.0K Jan  4 20:22 .cache
+drwxr-xr-x 3 root    root    4.0K Jan  4 20:22 compound
+-rw-r--r-- 1 vagrant vagrant  675 Apr  9  2014 .profile
+drwx------ 2 vagrant vagrant 4.0K Jan  4 20:22 .ssh

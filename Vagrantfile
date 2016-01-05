@@ -32,10 +32,10 @@ Vagrant.configure(2) do |config|
                          inline: '/bin/sh compound/ubuntu-post-install-todo/script/bootstrap',
                          privileged: false
     # update the environment
-    desktop.vm.provision 'update',
-                         type: 'shell',
-                         inline: '/bin/sh compound/ubuntu-post-install-todo/script/update',
-                         run: 'always',
-                         privileged: false
+    # desktop.vm.provision 'update',
+    #                      type: 'shell',
+    #                      inline: '/bin/sh compound/ubuntu-post-install-todo/script/update',
+    #                      run: 'always',
+    #                      privileged: false
   end
 end
