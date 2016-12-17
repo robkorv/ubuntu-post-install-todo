@@ -1,10 +1,10 @@
 ubuntu-post-install-todo
 ========================
 
-My task list after intalling Ubuntu 14.04
+My task list after intalling Ubuntu 16.04
 
 * [ ] `sudo ufw enable`
-* [ ] `sudo apt-get install ubuntu-restricted-extras vim byobu gdebi-common`
+* [ ] `sudo apt-get install ubuntu-restricted-extras vim byobu gdebi-core`
 * [ ] yubikey
   * [ ] `sudo add-apt-repository ppa:yubico/stable`
   * [ ] `sudo apt-get update`
