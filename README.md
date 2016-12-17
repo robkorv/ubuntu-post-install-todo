@@ -4,7 +4,11 @@ ubuntu-post-install-todo
 My task list after intalling Ubuntu 14.04
 
 * [ ] `sudo ufw enable`
-* [ ] `sudo apt-get install ubuntu-restricted-extras vim git gdebi-core byobu autoconf bison build-essential libssl-dev libyaml-dev libreadline6 libreadline6-dev zlib1g zlib1g-dev libgsl0-dev curl python-gpgme gnucash python-dev python-pip ruby ruby-dev kdiff3-qt`
+* [ ] `sudo apt-get install ubuntu-restricted-extras vim byobu`
+* [ ] yubikey
+  * [ ] `sudo add-apt-repository ppa:yubico/stable`
+  * [ ] `sudo apt-get update`
+  * [ ] `sudo apt-get install yubioath-desktop`
 * [ ] Start firefox and Logon to LastPass
   * [ ] `Voorkeuren` -> `Automatisch aanmeldgegevens invullen`, bij geavanceerd `Zoeken naar ...` uitzetten
  * [ ] Fire Gestures, disable all but `Muis gebaren`
