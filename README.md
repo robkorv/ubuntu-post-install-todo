@@ -4,7 +4,7 @@ ubuntu-post-install-todo
 My task list after intalling Ubuntu 14.04
 
 * [ ] `sudo ufw enable`
-* [ ] `sudo apt-get install ubuntu-restricted-extras vim byobu`
+* [ ] `sudo apt-get install ubuntu-restricted-extras vim byobu gdebi-common`
 * [ ] yubikey
   * [ ] `sudo add-apt-repository ppa:yubico/stable`
   * [ ] `sudo apt-get update`
