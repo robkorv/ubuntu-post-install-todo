@@ -28,8 +28,9 @@ My task list after intalling Ubuntu 14.04
  * [ ] login to [Netflix](http://www.netflix.com/), create a shortcut for it
  * [ ] edit `~/.local/share/applications//chrome-http___www.netflix.com_WiHome.desktop`, change `--app=` to `--kiosk `
  * [ ] the same for [nos](http://nos.nl/)
-* [ ] [generate ssh](https://help.github.com/articles/generating-ssh-keys/) -> [add ssh](https://github.com/settings/ssh)
+* [ ] [generate ssh](https://gist.github.com/robkorv/592b46e8ff9742d74ca4a3f894857dee) -> [add ssh](https://github.com/settings/ssh)
 * [ ] `git config --global user.name "Robbert Korving"` -> `git config --global user.email "r.korving@gmail.com"` -> `git config --global core.editor vim` -> `git config --global merge.tool kdiff3`
+* [ ] [git tips and tricks](https://gist.github.com/robkorv/f9106cc659823f16aa762bf0032b3d8e)
 * [ ] [git-up](https://github.com/aanand/git-up#install)
 * [ ] [spotify](https://www.spotify.com/nl/download/linux)
 * [ ] [smplayer](http://smplayer.sourceforge.net/en/downloads) -> `sudo apt-get update` -> `sudo apt-get install smplayer`
