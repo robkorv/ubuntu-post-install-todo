@@ -42,9 +42,7 @@ My task list after intalling Ubuntu 16.04
  * [ ] `sudo ufw allow from 192.168.1.0/24` <- lan ip range
 * [ ] [dropbox](https://www.dropbox.com/downloading?src=index)
   * [ ] before installing `sudo apt-get install python-gpgme`
-* [ ] [Indicator for Lock Keys](http://packages.ubuntu.com/search?keywords=indicator-keylock) will be in the universe repo from Ubuntu 15.04 and on
- * [ ] `sudo apt-add-repository ppa:tsbarnes/indicator-keylock`
- * [ ] `sudo apt-get update`
+* [ ] Indicator for Lock Keys
  * [ ] `sudo apt-get install indicator-keylock`
  * [ ] logout and login again
 * [ ] [Linux devices manager for the Logitech Unifying Receiver](https://github.com/pwr/Solaar) will be in the universe repo from Ubuntu 15.04 and on
