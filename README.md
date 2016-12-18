@@ -45,9 +45,7 @@ My task list after intalling Ubuntu 16.04
 * [ ] Indicator for Lock Keys
  * [ ] `sudo apt-get install indicator-keylock`
  * [ ] logout and login again
-* [ ] [Linux devices manager for the Logitech Unifying Receiver](https://github.com/pwr/Solaar) will be in the universe repo from Ubuntu 15.04 and on
- * [ ] `sudo apt-add-repository ppa:daniel.pavel/solaar`
- * [ ] `sudo apt-get update`
+* [ ] [Linux devices manager for the Logitech Unifying Receiver](https://github.com/pwr/Solaar)
  * [ ] `sudo apt-get install solaar-gnome3`
  * [ ] logout and login again
 * [ ] [gimp](http://www.gimp.org/)
