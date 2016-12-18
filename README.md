@@ -31,7 +31,7 @@ My task list after intalling Ubuntu 16.04
 * [ ] [generate ssh](https://gist.github.com/robkorv/592b46e8ff9742d74ca4a3f894857dee) -> [add ssh](https://github.com/settings/ssh)
 * [ ] `git config --global user.name "Robbert Korving"` -> `git config --global user.email "r.korving@gmail.com"` -> `git config --global core.editor vim` -> `git config --global merge.tool kdiff3`
 * [ ] [git tips and tricks](https://gist.github.com/robkorv/f9106cc659823f16aa762bf0032b3d8e)
-* [ ] [git-up](https://github.com/aanand/git-up#install)
+* [ ] [git-up](https://github.com/msiemens/PyGitUp)
 * [ ] [spotify](https://www.spotify.com/nl/download/linux)
 * [ ] [smplayer](http://smplayer.sourceforge.net/en/downloads) -> `sudo apt-get update` -> `sudo apt-get install smplayer`
  * [ ] `voorkeuren` -> enable `sluiten wanneer klaar...`, `video: videobestanden beeldvullen...`, `audio: Volume standaard...`, `toetsenbord: Ctrl+1 50%, +2 100%, +3 200%`
