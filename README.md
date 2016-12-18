@@ -36,7 +36,7 @@ My task list after intalling Ubuntu 16.04
 * [ ] [smplayer](http://smplayer.sourceforge.net/en/downloads) -> `sudo apt-get update` -> `sudo apt-get install smplayer`
  * [ ] `voorkeuren` -> enable `sluiten wanneer klaar...`, `video: videobestanden beeldvullen...`, `audio: Volume standaard...`, `toetsenbord: Ctrl+1 50%, +2 100%, +3 200%`
 * [ ] [virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions)
-* [ ] install [vagrant](https://www.vagrantup.com/downloads)
+* [ ] install [vagrant](https://www.vagrantup.com/downloads.html)
 * [ ] [nodejs](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 * [ ] [kodi](http://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux#Installing_Kodi_on_Ubuntu-based_distributions)
  * [ ] `sudo ufw allow from 192.168.1.0/24` <- lan ip range
