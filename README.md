@@ -22,6 +22,21 @@ My task list after intalling Ubuntu 16.04
 * [ ] `sudo vi /etc/default/grub` -> `GRUB_TIMEOUT=5`, `GRUB_CMDLINE_LINUX_DEFAULT=""`, `GRUB_TERMINAL=console`
 * [ ] `sudo update-grub` -> `sudo reboot`
 * [ ] use byobu as default shell -> `ctrl+alt+t` -> profiel bewerken -> opdracht aangepast `/usr/bin/byobu`
+* [ ] zsh
+  * [ ] `sudo apt-get install zsh`
+  * [ ] `printf "set -g default-shell /usr/bin/zsh\nset -g default-command /usr/bin/zsh" > .byobu/.tmux.conf`
+  * [ ] clone https://github.com/zsh-users/antigen
+  * [ ] `.zshrc`
+  ```bash
+  source ~/compound/antigen/bin/antigen.zsh
+  antigen use oh-my-zsh
+
+  antigen bundle git
+
+  antigen theme robbyrussell
+
+  antigen apply
+  ```
 * [ ] Install [Chrome](https://www.google.nl/chrome/browser/desktop/index.html)
 * [ ] Start `google-chrome`
  * [ ] In settings disable `Aanbieden om je internet wachtwoorden...`, `Aanbieden om pagina's te vertalen...`
