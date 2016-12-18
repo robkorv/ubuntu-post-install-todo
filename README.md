@@ -71,3 +71,4 @@ My task list after intalling Ubuntu 16.04
  * [ ] `bewerken` -> `voorkeuren` -> `interface` -> `taal` = `Engels [en_US]` -> restart gimp
  * [ ] `window` -> `single window mode`
 * [ ] [git-cola](https://github.com/git-cola/git-cola#run-from-source)
+* [ ] [Sublime](https://www.sublimetext.com)
