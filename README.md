@@ -32,6 +32,8 @@ My task list after intalling Ubuntu 16.04
   antigen use oh-my-zsh
 
   antigen bundle git
+  antigen bundle pip
+  antigen bundle python
 
   antigen theme robbyrussell
 
