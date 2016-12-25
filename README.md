@@ -4,7 +4,7 @@ ubuntu-post-install-todo
 My task list after intalling Ubuntu 16.04
 
 * [ ] `sudo ufw enable`
-* [ ] `sudo apt-get install ubuntu-restricted-extras vim byobu gdebi-core kdiff3-qt pgadmin3 dia-gnome`
+* [ ] `sudo apt-get install ubuntu-restricted-extras vim byobu gdebi-core kdiff3-qt pgadmin3 dia-gnome ruby`
 * [ ] yubikey
   * [ ] `sudo add-apt-repository ppa:yubico/stable`
   * [ ] `sudo apt-get update`
@@ -39,6 +39,8 @@ My task list after intalling Ubuntu 16.04
   antigen theme robbyrussell
 
   antigen apply
+  
+  export PATH="$PATH:$HOME/.gem/ruby/2.3.0/bin"
   ```
 * [ ] Install [Chrome](https://www.google.nl/chrome/browser/desktop/index.html)
 * [ ] Start `google-chrome`
