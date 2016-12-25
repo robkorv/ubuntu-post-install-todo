@@ -34,6 +34,7 @@ My task list after intalling Ubuntu 16.04
   antigen bundle git
   antigen bundle pip
   antigen bundle python
+  antigen bundle vagrant
 
   antigen theme robbyrussell
 
