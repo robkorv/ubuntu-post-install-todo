@@ -77,3 +77,7 @@ My task list after intalling Ubuntu 16.04
  * [ ] `window` -> `single window mode`
 * [ ] [git-cola](https://github.com/git-cola/git-cola#run-from-source)
 * [ ] [Sublime](https://www.sublimetext.com)
+* [ ] shutter
+  * [ ] `sudo add-apt-repository ppa:shutter/ppa`
+  * [ ] `sudo apt-get update`
+  * [ ] `sudo apt-get install shutter`
