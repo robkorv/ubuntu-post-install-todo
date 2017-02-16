@@ -10,7 +10,8 @@ My task list after intalling Ubuntu 16.04
   * [ ] `sudo apt-get update`
   * [ ] `sudo apt-get install yubioath-desktop`
 * [ ] Start firefox and Logon to LastPass
-  * [ ] `Voorkeuren` -> `Automatisch aanmeldgegevens invullen`, bij geavanceerd `Zoeken naar ...` uitzetten
+ * [ ] `Voorkeuren` -> `Automatisch aanmeldgegevens invullen`, bij geavanceerd `Zoeken naar ...` uitzetten
+ * [ ] login to firefox sync
  * [ ] Fire Gestures, disable all but `Muis gebaren`
  * [ ] install [HTML validator](http://users.skynet.be/mgueury/mozilla/index.html), choose serial and disable it by default after installation
 * [ ] Cleanup Unity bar
