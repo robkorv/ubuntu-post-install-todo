@@ -1,50 +1,74 @@
 ubuntu-post-install-todo
 ========================
 
-My task list after intalling Ubuntu 14.04
+My task list after intalling Ubuntu 16.04
 
 * [ ] `sudo ufw enable`
-* [ ] `sudo apt-get install ubuntu-restricted-extras vim git gdebi-core byobu autoconf bison build-essential libssl-dev libyaml-dev libreadline6 libreadline6-dev zlib1g zlib1g-dev libgsl0-dev curl python-gpgme gnucash python-dev python-pip ruby ruby-dev kdiff3-qt`
+* [ ] `sudo apt-get install ubuntu-restricted-extras vim byobu gdebi-core kdiff3-qt pgadmin3 dia-gnome ruby`
+* [ ] yubikey
+  * [ ] `sudo add-apt-repository ppa:yubico/stable`
+  * [ ] `sudo apt-get update`
+  * [ ] `sudo apt-get install yubioath-desktop`
 * [ ] Start firefox and Logon to LastPass
-  * [ ] `Voorkeuren` -> `Automatisch aanmeldgegevens invullen`, bij geavanceerd `Zoeken naar ...` uitzetten
+ * [ ] `Voorkeuren` -> `Automatisch aanmeldgegevens invullen`, bij geavanceerd `Zoeken naar ...` uitzetten
+ * [ ] login to firefox sync
  * [ ] Fire Gestures, disable all but `Muis gebaren`
  * [ ] install [HTML validator](http://users.skynet.be/mgueury/mozilla/index.html), choose serial and disable it by default after installation
+ * [ ] enable bookmark bar
 * [ ] Cleanup Unity bar
 * [ ] `System settings`
   * [ ] `Helderheid en vergrendelen` -> disable `Pauzestand`, `Mijn wachtwoord vereisen ...`
   * [ ] `Schermen` disable `Plakranden`
   * [ ] `Gebruikers accounts` -> enable `Automatisch aanmelden`
   * [ ] `Software & Updates` -> `Extra stuurprogramma's` enable tested binary driver
-* [ ] `sudo vi /etc/default/grub` -> `GRUB_TIMEOUT=5`, `GRUB_CMDLINE_LINUX_DEFAULT=""`, `GRUB_TERMINAL=console`
+* [ ] `sudo vi /etc/default/grub` -> `GRUB_TIMEOUT=5`, `GRUB_CMDLINE_LINUX_DEFAULT=""`
 * [ ] `sudo update-grub` -> `sudo reboot`
 * [ ] use byobu as default shell -> `ctrl+alt+t` -> profiel bewerken -> opdracht aangepast `/usr/bin/byobu`
+* [ ] zsh
+  * [ ] `sudo apt-get install zsh`
+  * [ ] `printf "set -g default-shell /usr/bin/zsh\nset -g default-command /usr/bin/zsh" > .byobu/.tmux.conf`
+  * [ ] clone https://github.com/zsh-users/antigen
+  * [ ] `.zshrc`
+  ```bash
+  source ~/compound/antigen/bin/antigen.zsh
+  antigen use oh-my-zsh
+
+  antigen bundle git
+  antigen bundle pip
+  antigen bundle python
+  antigen bundle vagrant
+
+  antigen theme robbyrussell
+
+  antigen apply
+  
+  export PATH="$PATH:$HOME/.gem/ruby/2.3.0/bin"
+  ```
 * [ ] Install [Chrome](https://www.google.nl/chrome/browser/desktop/index.html)
 * [ ] Start `google-chrome`
  * [ ] In settings disable `Aanbieden om je internet wachtwoorden...`, `Aanbieden om pagina's te vertalen...`
  * [ ] login to [Netflix](http://www.netflix.com/), create a shortcut for it
  * [ ] edit `~/.local/share/applications//chrome-http___www.netflix.com_WiHome.desktop`, change `--app=` to `--kiosk `
  * [ ] the same for [nos](http://nos.nl/)
-* [ ] [generate ssh](https://help.github.com/articles/generating-ssh-keys/) -> [add ssh](https://github.com/settings/ssh)
-* [ ] `git config --global user.name "Robbert Korving"` -> `git config --global user.email "r.korving@gmail.com"` -> `git config --global core.editor vim` -> `git config --global merge.tool kdiff3`
-* [ ] [git-up](https://github.com/aanand/git-up#install)
+* [ ] [generate ssh](https://gist.github.com/robkorv/592b46e8ff9742d74ca4a3f894857dee) -> [add ssh github](https://github.com/settings/ssh), [add ssh gitlab](https://gitlab.com/profile/keys)
+* [ ] `git config --global user.name "Robbert Korving"` -> `git config --global user.email "r.korving@gmail.com"` -> `git config --global core.editor vim` -> `git config --global merge.tool kdiff3` -> `git config --global push.default simple`
+* [ ] [git tips and tricks](https://gist.github.com/robkorv/f9106cc659823f16aa762bf0032b3d8e)
+* [ ] [git-up](https://github.com/msiemens/PyGitUp)
 * [ ] [spotify](https://www.spotify.com/nl/download/linux)
 * [ ] [smplayer](http://smplayer.sourceforge.net/en/downloads) -> `sudo apt-get update` -> `sudo apt-get install smplayer`
  * [ ] `voorkeuren` -> enable `sluiten wanneer klaar...`, `video: videobestanden beeldvullen...`, `audio: Volume standaard...`, `toetsenbord: Ctrl+1 50%, +2 100%, +3 200%`
 * [ ] [virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions)
-* [ ] install [vagrant](https://www.vagrantup.com/downloads)
+* [ ] [docker](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
+* [ ] install [vagrant](https://www.vagrantup.com/downloads.html)
 * [ ] [nodejs](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
 * [ ] [kodi](http://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux#Installing_Kodi_on_Ubuntu-based_distributions)
  * [ ] `sudo ufw allow from 192.168.1.0/24` <- lan ip range
 * [ ] [dropbox](https://www.dropbox.com/downloading?src=index)
   * [ ] before installing `sudo apt-get install python-gpgme`
-* [ ] [Indicator for Lock Keys](http://packages.ubuntu.com/search?keywords=indicator-keylock) will be in the universe repo from Ubuntu 15.04 and on
- * [ ] `sudo apt-add-repository ppa:tsbarnes/indicator-keylock`
- * [ ] `sudo apt-get update`
+* [ ] Indicator for Lock Keys
  * [ ] `sudo apt-get install indicator-keylock`
  * [ ] logout and login again
-* [ ] [Linux devices manager for the Logitech Unifying Receiver](https://github.com/pwr/Solaar) will be in the universe repo from Ubuntu 15.04 and on
- * [ ] `sudo apt-add-repository ppa:daniel.pavel/solaar`
- * [ ] `sudo apt-get update`
+* [ ] [Linux devices manager for the Logitech Unifying Receiver](https://github.com/pwr/Solaar)
  * [ ] `sudo apt-get install solaar-gnome3`
  * [ ] logout and login again
 * [ ] [gimp](http://www.gimp.org/)
@@ -54,4 +78,8 @@ My task list after intalling Ubuntu 14.04
  * [ ] `bewerken` -> `voorkeuren` -> `interface` -> `taal` = `Engels [en_US]` -> restart gimp
  * [ ] `window` -> `single window mode`
 * [ ] [git-cola](https://github.com/git-cola/git-cola#run-from-source)
-* [ ] [thefuck](https://github.com/nvbn/thefuck#manual-installation)
+* [ ] [Sublime](https://www.sublimetext.com)
+* [ ] shutter
+  * [ ] `sudo add-apt-repository ppa:shutter/ppa`
+  * [ ] `sudo apt-get update`
+  * [ ] `sudo apt-get install shutter`
