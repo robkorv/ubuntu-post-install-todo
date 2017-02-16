@@ -21,7 +21,7 @@ My task list after intalling Ubuntu 16.04
   * [ ] `Schermen` disable `Plakranden`
   * [ ] `Gebruikers accounts` -> enable `Automatisch aanmelden`
   * [ ] `Software & Updates` -> `Extra stuurprogramma's` enable tested binary driver
-* [ ] `sudo vi /etc/default/grub` -> `GRUB_TIMEOUT=5`, `GRUB_CMDLINE_LINUX_DEFAULT=""`, `GRUB_TERMINAL=console`
+* [ ] `sudo vi /etc/default/grub` -> `GRUB_TIMEOUT=5`, `GRUB_CMDLINE_LINUX_DEFAULT=""`
 * [ ] `sudo update-grub` -> `sudo reboot`
 * [ ] use byobu as default shell -> `ctrl+alt+t` -> profiel bewerken -> opdracht aangepast `/usr/bin/byobu`
 * [ ] zsh
