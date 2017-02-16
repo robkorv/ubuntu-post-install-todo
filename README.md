@@ -14,6 +14,7 @@ My task list after intalling Ubuntu 16.04
  * [ ] login to firefox sync
  * [ ] Fire Gestures, disable all but `Muis gebaren`
  * [ ] install [HTML validator](http://users.skynet.be/mgueury/mozilla/index.html), choose serial and disable it by default after installation
+ * [ ] enable bookmark bar
 * [ ] Cleanup Unity bar
 * [ ] `System settings`
   * [ ] `Helderheid en vergrendelen` -> disable `Pauzestand`, `Mijn wachtwoord vereisen ...`
