@@ -25,12 +25,11 @@ My task list after intalling Ubuntu 16.04
 * [ ] `sudo update-grub` -> `sudo reboot`
 * [ ] use byobu as default shell -> `ctrl+alt+t` -> profiel bewerken -> opdracht aangepast `/usr/bin/byobu`
 * [ ] zsh
-  * [ ] `sudo apt-get install zsh`
+  * [ ] `sudo apt-get install zsh-antigen`
   * [ ] `printf "set -g default-shell /usr/bin/zsh\nset -g default-command /usr/bin/zsh" > .byobu/.tmux.conf`
-  * [ ] clone https://github.com/zsh-users/antigen
   * [ ] `.zshrc`
   ```bash
-  source ~/compound/antigen/bin/antigen.zsh
+  source /usr/share/zsh-antigen/antigen.zsh
   antigen use oh-my-zsh
 
   antigen bundle git
@@ -40,9 +39,7 @@ My task list after intalling Ubuntu 16.04
 
   antigen theme robbyrussell
 
-  antigen apply
-  
-  export PATH="$PATH:$HOME/.gem/ruby/2.3.0/bin"
+  antigen apply  
   ```
 * [ ] Install [Chrome](https://www.google.nl/chrome/browser/desktop/index.html)
 * [ ] Start `google-chrome`
