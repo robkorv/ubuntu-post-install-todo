@@ -5,10 +5,6 @@ My task list after intalling Ubuntu 16.04
 
 * [ ] `sudo ufw enable`
 * [ ] `sudo apt-get install ubuntu-restricted-extras vim byobu gdebi-core kdiff3-qt pgadmin3 dia-gnome git`
-* [ ] yubikey
-  * [ ] `sudo add-apt-repository ppa:yubico/stable`
-  * [ ] `sudo apt-get update`
-  * [ ] `sudo apt-get install yubioath-desktop`
 * [ ] Start firefox and Logon to LastPass
  * [ ] `Voorkeuren` -> `Automatisch aanmeldgegevens invullen`, bij geavanceerd `Zoeken naar ...` uitzetten
  * [ ] login to firefox sync
@@ -19,10 +15,7 @@ My task list after intalling Ubuntu 16.04
 * [ ] `System settings`
   * [ ] `Helderheid en vergrendelen` -> disable `Pauzestand`, `Mijn wachtwoord vereisen ...`
   * [ ] `Schermen` disable `Plakranden`
-  * [ ] `Gebruikers accounts` -> enable `Automatisch aanmelden`
   * [ ] `Software & Updates` -> `Extra stuurprogramma's` enable tested binary driver
-* [ ] `sudo vi /etc/default/grub` -> `GRUB_TIMEOUT=5`, `GRUB_CMDLINE_LINUX_DEFAULT=""`
-* [ ] `sudo update-grub` -> `sudo reboot`
 * [ ] use byobu as default shell -> `ctrl+alt+t` -> profiel bewerken -> opdracht aangepast `/usr/bin/byobu`
 * [ ] zsh
   * [ ] `sudo apt-get install zsh-antigen`
@@ -44,22 +37,11 @@ My task list after intalling Ubuntu 16.04
 * [ ] [generate ssh](https://gist.github.com/robkorv/592b46e8ff9742d74ca4a3f894857dee) -> [add ssh github](https://github.com/settings/ssh), [add ssh gitlab](https://gitlab.com/profile/keys)
 * [ ] `git config --global user.name "Robbert Korving"` -> `git config --global user.email "r.korving@gmail.com"` -> `git config --global core.editor vim` -> `git config --global merge.tool kdiff3` -> `git config --global push.default simple`
 * [ ] `sudo snap install spotify`
-* [ ] [smplayer](http://smplayer.sourceforge.net/en/downloads) -> `sudo apt-get update` -> `sudo apt-get install smplayer`
- * [ ] `voorkeuren` -> enable `sluiten wanneer klaar...`, `video: videobestanden beeldvullen...`, `audio: Volume standaard...`, `toetsenbord: Ctrl+1 50%, +2 100%, +3 200%`
+* [ ] `sudo snap install discord`
 * [ ] [virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions)
 * [ ] [docker](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
 * [ ] install [vagrant](https://www.vagrantup.com/downloads.html)
 * [ ] [nodejs](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
-* [ ] [kodi](http://kodi.wiki/view/HOW-TO:Install_Kodi_for_Linux#Installing_Kodi_on_Ubuntu-based_distributions)
- * [ ] `sudo ufw allow from 192.168.1.0/24` <- lan ip range
-* [ ] [dropbox](https://www.dropbox.com/downloading?src=index)
-  * [ ] before installing `sudo apt-get install python-gpgme`
-* [ ] Indicator for Lock Keys
- * [ ] `sudo apt-get install indicator-keylock`
- * [ ] logout and login again
-* [ ] [Linux devices manager for the Logitech Unifying Receiver](https://github.com/pwr/Solaar)
- * [ ] `sudo apt-get install solaar-gnome3`
- * [ ] logout and login again
 * [ ] [gimp](http://www.gimp.org/)
  * [ ] `sudo add-apt-repository ppa:otto-kesselgulasch/gimp`
  * [ ] `sudo apt-get update`
