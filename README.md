@@ -4,7 +4,7 @@ ubuntu-post-install-todo
 My task list after intalling Ubuntu 16.04
 
 * [ ] `sudo ufw enable`
-* [ ] `sudo apt-get install ubuntu-restricted-extras vim byobu gdebi-core kdiff3-qt pgadmin3 dia-gnome ruby git`
+* [ ] `sudo apt-get install ubuntu-restricted-extras vim byobu gdebi-core kdiff3-qt pgadmin3 dia-gnome git`
 * [ ] yubikey
   * [ ] `sudo add-apt-repository ppa:yubico/stable`
   * [ ] `sudo apt-get update`
@@ -41,17 +41,9 @@ My task list after intalling Ubuntu 16.04
 
   antigen apply  
   ```
-* [ ] Install [Chrome](https://www.google.nl/chrome/browser/desktop/index.html)
-* [ ] Start `google-chrome`
- * [ ] In settings disable `Aanbieden om je internet wachtwoorden...`, `Aanbieden om pagina's te vertalen...`
- * [ ] login to [Netflix](http://www.netflix.com/), create a shortcut for it
- * [ ] edit `~/.local/share/applications//chrome-http___www.netflix.com_WiHome.desktop`, change `--app=` to `--kiosk `
- * [ ] the same for [nos](http://nos.nl/)
 * [ ] [generate ssh](https://gist.github.com/robkorv/592b46e8ff9742d74ca4a3f894857dee) -> [add ssh github](https://github.com/settings/ssh), [add ssh gitlab](https://gitlab.com/profile/keys)
 * [ ] `git config --global user.name "Robbert Korving"` -> `git config --global user.email "r.korving@gmail.com"` -> `git config --global core.editor vim` -> `git config --global merge.tool kdiff3` -> `git config --global push.default simple`
-* [ ] [git tips and tricks](https://gist.github.com/robkorv/f9106cc659823f16aa762bf0032b3d8e)
-* [ ] [git-up](https://github.com/msiemens/PyGitUp)
-* [ ] [spotify](https://www.spotify.com/nl/download/linux)
+* [ ] `sudo snap install spotify`
 * [ ] [smplayer](http://smplayer.sourceforge.net/en/downloads) -> `sudo apt-get update` -> `sudo apt-get install smplayer`
  * [ ] `voorkeuren` -> enable `sluiten wanneer klaar...`, `video: videobestanden beeldvullen...`, `audio: Volume standaard...`, `toetsenbord: Ctrl+1 50%, +2 100%, +3 200%`
 * [ ] [virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions)
