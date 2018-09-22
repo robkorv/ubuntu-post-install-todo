@@ -4,7 +4,7 @@ ubuntu-post-install-todo
 My task list after intalling Ubuntu 16.04
 
 * [ ] `sudo ufw enable`
-* [ ] `sudo apt-get install ubuntu-restricted-extras vim byobu gdebi-core kdiff3-qt pgadmin3 dia-gnome git`
+* [ ] `sudo apt-get install ubuntu-restricted-extras vim byobu gdebi-core kdiff3-qt pgadmin3 dia-gnome git python3-pip`
 * [ ] Start firefox and Logon to LastPass
  * [ ] `Voorkeuren` -> `Automatisch aanmeldgegevens invullen`, bij geavanceerd `Zoeken naar ...` uitzetten
  * [ ] login to firefox sync
@@ -37,7 +37,7 @@ My task list after intalling Ubuntu 16.04
 * [ ] `git config --global user.name "Robbert Korving"` -> `git config --global user.email "r.korving@gmail.com"` -> `git config --global core.editor vim` -> `git config --global merge.tool kdiff3`
 * [ ] `sudo snap install spotify`
 * [ ] `sudo snap install discord`
-* [ ] `pip install --user thefuck` -> `eval $(thefuck --alias)` -> `~/.zshrc`
+* [ ] `pip3 install --user thefuck` -> `eval $(thefuck --alias)` -> `~/.zshrc`
 * [ ] [virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions)
 * [ ] [docker](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
 * [ ] install [vagrant](https://www.vagrantup.com/downloads.html)
