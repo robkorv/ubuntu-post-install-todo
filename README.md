@@ -34,9 +34,10 @@ My task list after intalling Ubuntu 16.04
   ```
 * [ ] [disable mouse accel](https://wiki.archlinux.org/index.php/Mouse_acceleration#Disabling_mouse_acceleration) goes in `/usr/share/X11/xorg.conf.d/50-mouse-acceleration.conf`
 * [ ] [generate ssh](https://gist.github.com/robkorv/592b46e8ff9742d74ca4a3f894857dee) -> [add ssh github](https://github.com/settings/ssh), [add ssh gitlab](https://gitlab.com/profile/keys)
-* [ ] `git config --global user.name "Robbert Korving"` -> `git config --global user.email "r.korving@gmail.com"` -> `git config --global core.editor vim` -> `git config --global merge.tool kdiff3` -> `git config --global push.default simple`
+* [ ] `git config --global user.name "Robbert Korving"` -> `git config --global user.email "r.korving@gmail.com"` -> `git config --global core.editor vim` -> `git config --global merge.tool kdiff3`
 * [ ] `sudo snap install spotify`
 * [ ] `sudo snap install discord`
+* [ ] `pip install --user thefuck` -> `eval $(thefuck --alias)` -> `~/.zshrc`
 * [ ] [virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions)
 * [ ] [docker](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
 * [ ] install [vagrant](https://www.vagrantup.com/downloads.html)
