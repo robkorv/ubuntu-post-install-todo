@@ -4,7 +4,7 @@ ubuntu-post-install-todo
 My task list after intalling Ubuntu 16.04
 
 * [ ] `sudo ufw enable`
-* [ ] `sudo apt-get install ubuntu-restricted-extras vim byobu gdebi-core kdiff3-qt pgadmin3 dia-gnome git python3-pip`
+* [ ] `sudo apt-get install ubuntu-restricted-extras vim byobu gdebi-core kdiff3-qt pgadmin3 dia-gnome git python3-pip python-pyqt5`
 * [ ] Start firefox and Logon to LastPass
  * [ ] `Voorkeuren` -> `Automatisch aanmeldgegevens invullen`, bij geavanceerd `Zoeken naar ...` uitzetten
  * [ ] login to firefox sync
