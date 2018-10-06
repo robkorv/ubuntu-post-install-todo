@@ -3,13 +3,20 @@ ubuntu-post-install-todo
 
 My task list after intalling Ubuntu 16.04
 
+* [ ] Before first login graphical login
+  * `sudo apt-get update`
+  * `sudo apt-get dist-upgrade`
+  * `sudo apt-get install ubuntu-restricted-extras $(check-language-support)`
 * [ ] `sudo ufw enable`
-* [ ] `sudo apt-get install ubuntu-restricted-extras vim byobu gdebi-core kdiff3-qt pgadmin3 dia-gnome git python3-pip python-pyqt5`
+* [ ] `sudo apt-get install vim byobu gdebi-core kdiff3-qt pgadmin3 dia-gnome git python3-pip python-pyqt5`
 * [ ] Start firefox and Logon to LastPass
  * [ ] `Voorkeuren` -> `Automatisch aanmeldgegevens invullen`, bij geavanceerd `Zoeken naar ...` uitzetten
  * [ ] login to firefox sync
  * [ ] enable bookmark bar
 * [ ] Cleanup Unity bar
+* [ ] enable newer gtx drivers for https://github.com/ValveSoftware/Proton
+  * [ ] `sudo add-apt-repository ppa:graphics-drivers/ppa`
+  * [ ] `sudo apt-get update`
 * [ ] `System settings`
   * [ ] `Helderheid en vergrendelen` -> disable `Pauzestand`, `Mijn wachtwoord vereisen ...`
   * [ ] `Schermen` disable `Plakranden`
