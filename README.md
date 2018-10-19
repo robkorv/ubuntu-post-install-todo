@@ -40,6 +40,11 @@ My task list after intalling Ubuntu 16.04
   antigen apply  
   ```
 * [ ] [disable mouse accel](https://wiki.archlinux.org/index.php/Mouse_acceleration#Disabling_mouse_acceleration) goes in `/usr/share/X11/xorg.conf.d/50-mouse-acceleration.conf`
+* [ ] [enable hq audio ](https://wiki.archlinux.org/index.php/PulseAudio#Configuration) `~/.config/pulse/client.conf`
+```
+default-sample-format = s24le
+default-sample-rate = 48000
+```
 * [ ] [generate ssh](https://gist.github.com/robkorv/592b46e8ff9742d74ca4a3f894857dee) -> [add ssh github](https://github.com/settings/ssh), [add ssh gitlab](https://gitlab.com/profile/keys)
 * [ ] `git config --global user.name "Robbert Korving"` -> `git config --global user.email "r.korving@gmail.com"` -> `git config --global core.editor vim` -> `git config --global merge.tool kdiff3`
 * [ ] `sudo snap install spotify`
