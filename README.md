@@ -40,7 +40,7 @@ My task list after intalling Ubuntu 16.04
   antigen apply  
   ```
 * [ ] [disable mouse accel](https://wiki.archlinux.org/index.php/Mouse_acceleration#Disabling_mouse_acceleration) goes in `/usr/share/X11/xorg.conf.d/50-mouse-acceleration.conf`
-* [ ] [enable hq audio ](https://wiki.archlinux.org/index.php/PulseAudio#Configuration) `~/.config/pulse/client.conf`
+* [ ] [enable hq audio ](https://wiki.archlinux.org/index.php/PulseAudio#Configuration) `~/.config/pulse/daemon.conf`
 ```
 default-sample-format = s24le
 default-sample-rate = 48000
