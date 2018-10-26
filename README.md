@@ -55,6 +55,7 @@ default-sample-rate = 48000
 * [ ] [docker](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
 * [ ] install [vagrant](https://www.vagrantup.com/downloads.html)
 * [ ] [nodejs](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
+* [ ] `sudo npm install npm@latest -g`
 * [ ] [gimp](http://www.gimp.org/)
  * [ ] `sudo add-apt-repository ppa:otto-kesselgulasch/gimp`
  * [ ] `sudo apt-get update`
