@@ -1,32 +1,40 @@
 ubuntu-post-install-todo
 ========================
 
-My task list after intalling Ubuntu 16.04
+My task list after intalling Ubuntu 18.04
 
-* [ ] Before first login graphical login
-  * `sudo apt-get update`
-  * `sudo apt-get dist-upgrade`
-  * `sudo apt-get install ubuntu-restricted-extras $(check-language-support)`
-* [ ] `sudo ufw enable`
-* [ ] `sudo apt-get install vim byobu gdebi-core kdiff3-qt pgadmin3 dia-gnome git python3-pip python-pyqt5 curl`
-* [ ] `sudo -H pip3 install --upgrade pip`
-* [ ] Start firefox and Logon to LastPass
- * [ ] `Voorkeuren` -> `Automatisch aanmeldgegevens invullen`, bij geavanceerd `Zoeken naar ...` uitzetten
- * [ ] login to firefox sync
- * [ ] enable bookmark bar
-* [ ] Cleanup Unity bar
-* [ ] enable newer gtx drivers for https://github.com/ValveSoftware/Proton
-  * [ ] `sudo add-apt-repository ppa:graphics-drivers/ppa`
-  * [ ] `sudo apt-get update`
-* [ ] `System settings`
-  * [ ] `Helderheid en vergrendelen` -> disable `Pauzestand`, `Mijn wachtwoord vereisen ...`
-  * [ ] `Schermen` disable `Plakranden`
-  * [ ] `Software & Updates` -> `Extra stuurprogramma's` enable tested binary driver
-* [ ] use byobu as default shell -> `ctrl+alt+t` -> profiel bewerken -> opdracht aangepast `/usr/bin/byobu`
-* [ ] zsh
-  * [ ] `sudo apt-get install zsh-antigen`
-  * [ ] `printf "set -g default-shell /usr/bin/zsh\nset -g default-command /usr/bin/zsh" > .byobu/.tmux.conf`
-  * [ ] `.zshrc`
+- stuff
+  - [ ] `sudo ufw enable` _enables firewall_
+  - [ ] `sudo apt update` _updates repositories_
+  - [ ] `sudo apt dist-upgrade` _upgrades packages to latest version_
+  - [ ] `sudo apt install ubuntu-restricted-extras $(check-language-support)` _installs Microsoft fonts, extra media decoders and missing translations_
+  - [ ] `sudo apt install vim byobu gdebi-core kdiff3-qt pgadmin3 dia git python3-pip python3-pyqt5 curl` _installs dependencies and software I use_
+  - [ ] `sudo -H pip3 install --upgrade pip` _updates python3-pip_
+  - [ ] `gsettings set org.gnome.desktop.peripherals.mouse accel-profile 'flat'` _disables mouse acceleration_
+  - [ ] "Settings" -> "Starter" -> "Display on" -> "All screens"
+  - [ ] Cleanup Unity bar
+
+- Start firefox
+  - [ ] Install and Logon to LastPass
+  - [ ] login to firefox sync
+  - [ ] enable bookmark bar
+
+- enable newer gtx drivers for https://github.com/ValveSoftware/Proton
+  - [ ] `sudo add-apt-repository ppa:graphics-drivers/ppa` _adds repository to the system_
+  - [ ] Enable driver at "Software & Updates" -> "Additional Drivers"
+  - [ ] `sudo reboot` _reboots the system_
+  - [ ] "Settings" -> "Devices" -> "Screens" -> Drag screens to the right order and put the 144hz to 144hz
+  - [ ] Edit "~/.config/monitors.xml" and change `<rate>144.00076293945312</rate>` to `<rate>144</rate>`
+
+- byobu
+  - [ ] `byobu-enable` _enables byobu as login shell_
+  - [ ] `byobu` -> `ctrl+a` -> "(1) Screen mode (GNU Screen's default escape sequence)" _starts byobu and sets the default escape sequence_
+  - [ ] use byobu as default shell -> `ctrl+alt+t` -> "edit" -> "preferences" -> "command" -> "Run custom command" -> `/usr/bin/byobu`
+
+- zsh
+  - [ ] `sudo apt install zsh-antigen` _installs zsh-antigen_
+  - [ ] `printf "set -g default-shell /usr/bin/zsh\nset -g default-command /usr/bin/zsh" > .byobu/.tmux.conf` enables zsh in byobu_
+  - [ ] add the following to `~/.zshrc` _enables oh my zsh with robbyrussell theme as well as some auto-complete bundles_
   ```bash
   source /usr/share/zsh-antigen/antigen.zsh
   antigen use oh-my-zsh
@@ -38,33 +46,34 @@ My task list after intalling Ubuntu 16.04
 
   antigen theme robbyrussell
 
-  antigen apply  
+  antigen apply
   ```
-* [ ] [disable mouse accel](https://wiki.archlinux.org/index.php/Mouse_acceleration#Disabling_mouse_acceleration) goes in `/usr/share/X11/xorg.conf.d/50-mouse-acceleration.conf`
-* [ ] [enable hq audio ](https://wiki.archlinux.org/index.php/PulseAudio#Configuration) `~/.config/pulse/daemon.conf`
-```
-default-sample-format = s24le
-default-sample-rate = 48000
-```
-* [ ] [generate ssh](https://gist.github.com/robkorv/592b46e8ff9742d74ca4a3f894857dee) -> [add ssh github](https://github.com/settings/ssh), [add ssh gitlab](https://gitlab.com/profile/keys)
-* [ ] `git config --global user.name "Robbert Korving"` -> `git config --global user.email "r.korving@gmail.com"` -> `git config --global core.editor vim` -> `git config --global merge.tool kdiff3`
-* [ ] `sudo snap install spotify`
-* [ ] `sudo snap install discord`
-* [ ] `pip3 install --user thefuck` -> `eval $(thefuck --alias)` -> `~/.zshrc`
-* [ ] [virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions)
-* [ ] [docker](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
-* [ ] install [vagrant](https://www.vagrantup.com/downloads.html)
-* [ ] [nodejs](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
-* [ ] `sudo npm install npm@latest -g`
-* [ ] [gimp](http://www.gimp.org/)
- * [ ] `sudo add-apt-repository ppa:otto-kesselgulasch/gimp`
- * [ ] `sudo apt-get update`
- * [ ] `sudo apt-get install gimp`
- * [ ] `bewerken` -> `voorkeuren` -> `interface` -> `taal` = `Engels [en_US]` -> restart gimp
- * [ ] `window` -> `single window mode`
-* [ ] [git-cola](https://github.com/git-cola/git-cola#run-from-source)
-* [ ] [Sublime](https://www.sublimetext.com)
-* [ ] shutter
-  * [ ] `sudo add-apt-repository ppa:shutter/ppa`
-  * [ ] `sudo apt-get update`
-  * [ ] `sudo apt-get install shutter`
+  - [ ] Antigen package on Ubuntu is broken, see https://github.com/zsh-users/antigen/issues/659. Fix `sudo curl -o /usr/share/zsh-antigen/antigen.zsh -sL git.io/antigen` _overwrites antigen script with the complete version_
+  - [ ] close current terminal and start a new one. zsh should now be enabled
+
+- git
+  - [ ] [generate ssh](https://gist.github.com/robkorv/592b46e8ff9742d74ca4a3f894857dee) -> [add ssh github](https://github.com/settings/ssh), [add ssh gitlab](https://gitlab.com/profile/keys)
+  - [ ] `git config --global user.name "Robbert Korving"` -> `git config --global user.email "r.korving@gmail.com"` -> `git config --global core.editor vim` -> `git config --global merge.tool kdiff3`
+
+- [gimp](http://www.gimp.org/)
+  - [ ] `sudo add-apt-repository ppa:otto-kesselgulasch/gimp`
+  - [ ] `sudo apt-get update`
+  - [ ] `sudo apt-get install gimp`
+  - [ ] `bewerken` -> `voorkeuren` -> `interface` -> `taal` = `Engels [en_US]` -> restart gimp
+  - [ ] `window` -> `single window mode`
+
+- shutter
+  - [ ] `sudo add-apt-repository ppa:shutter/ppa`
+  - [ ] `sudo apt-get install shutter`
+
+- misc
+  - [ ] `sudo snap install spotify`
+  - [ ] `sudo snap install discord`
+  - [ ] `pip3 install --user thefuck` -> `eval $(thefuck --alias)` -> `~/.zshrc`
+  - [ ] [virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions)
+  - [ ] [docker](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
+  - [ ] install [vagrant](https://www.vagrantup.com/downloads.html)
+  - [ ] [nodejs](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
+  - [ ] `sudo npm install npm@latest -g`
+  - [ ] [git-cola](https://github.com/git-cola/git-cola#run-from-source)
+  - [ ] [Sublime](https://www.sublimetext.com)
