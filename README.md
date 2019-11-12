@@ -66,7 +66,7 @@ My task list after intalling Ubuntu 18.04
   - [ ] `pip3 install --user thefuck` -> `eval $(thefuck --alias)` -> `~/.zshrc`
   - [ ] `sudo apt install flameshot`
   - [ ] `sudo apt install virtualbox`
-  - [ ] [docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
+  - [ ] [docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) `deb [arch=amd64] https://download.docker.com/linux/ubuntu eoan stable` -> `/etc/apt/sources.list.d/docker.list` -> `sudo usermod -aG docker $USER`
   - [ ] install [vagrant](https://www.vagrantup.com/downloads.html)
   - [ ] [nodejs](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
   - [ ] `sudo npm install npm@latest -g`
