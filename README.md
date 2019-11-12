@@ -24,7 +24,6 @@ My task list after intalling Ubuntu 18.04
   - [ ] Enable driver at "Software & Updates" -> "Additional Drivers"
   - [ ] `sudo reboot` _reboots the system_
   - [ ] "Settings" -> "Devices" -> "Screens" -> Drag screens to the right order and put the 144hz to 144hz
-  - [ ] Edit "~/.config/monitors.xml" and change `<rate>144.00076293945312</rate>` to `<rate>144</rate>`
 
 - byobu
   - [ ] `byobu-enable` _enables byobu as login shell_
@@ -59,19 +58,15 @@ My task list after intalling Ubuntu 18.04
   - [ ] `sudo add-apt-repository ppa:otto-kesselgulasch/gimp`
   - [ ] `sudo apt-get update`
   - [ ] `sudo apt-get install gimp`
-  - [ ] `bewerken` -> `voorkeuren` -> `interface` -> `taal` = `Engels [en_US]` -> restart gimp
-  - [ ] `window` -> `single window mode`
-
-- shutter
-  - [ ] `sudo add-apt-repository ppa:shutter/ppa`
-  - [ ] `sudo apt-get install shutter`
+  - [ ] `bewerken` -> `voorkeuren` -> `interface` -> `taal` = `Engels [en_US]` -> restart gimpapti
 
 - misc
   - [ ] `sudo snap install spotify`
   - [ ] `sudo snap install discord`
   - [ ] `pip3 install --user thefuck` -> `eval $(thefuck --alias)` -> `~/.zshrc`
-  - [ ] [virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions)
-  - [ ] [docker](https://docs.docker.com/engine/installation/linux/ubuntulinux/)
+  - [ ] `sudo apt install flameshot`
+  - [ ] `sudo apt install virtualbox`
+  - [ ] [docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
   - [ ] install [vagrant](https://www.vagrantup.com/downloads.html)
   - [ ] [nodejs](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
   - [ ] `sudo npm install npm@latest -g`
