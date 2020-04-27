@@ -32,7 +32,7 @@ My task list after intalling Ubuntu 18.04
 
 - zsh
   - [ ] `sudo apt install zsh-antigen` _installs zsh-antigen_
-  - [ ] `printf "set -g default-shell /usr/bin/zsh\nset -g default-command /usr/bin/zsh" > .byobu/.tmux.conf` enables zsh in byobu_
+  - [ ] `printf "set -g default-shell /usr/bin/zsh\nset -g default-command /usr/bin/zsh" > .byobu/.tmux.conf` _enables zsh in byobu_
   - [ ] add the following to `~/.zshrc` _enables oh my zsh with robbyrussell theme as well as some auto-complete bundles_
   ```bash
   source /usr/share/zsh-antigen/antigen.zsh
