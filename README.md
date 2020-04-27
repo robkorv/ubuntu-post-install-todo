@@ -1,7 +1,7 @@
 ubuntu-post-install-todo
 ========================
 
-My task list after intalling Ubuntu 18.04
+My task list after intalling Ubuntu 20.04
 
 - stuff
   - [ ] `sudo ufw enable` _enables firewall_
@@ -12,18 +12,12 @@ My task list after intalling Ubuntu 18.04
   - [ ] `sudo -H pip3 install --upgrade pip` _updates python3-pip_
   - [ ] `gsettings set org.gnome.desktop.peripherals.mouse accel-profile 'flat'` _disables mouse acceleration_
   - [ ] "Settings" -> "Starter" -> "Display on" -> "All screens"
-  - [ ] Cleanup Unity bar
+  - [ ] Cleanup Start bar
 
 - Start firefox
   - [ ] Install and Logon to LastPass
   - [ ] login to firefox sync
   - [ ] enable bookmark bar
-
-- enable newer gtx drivers for https://github.com/ValveSoftware/Proton
-  - [ ] `sudo add-apt-repository ppa:graphics-drivers/ppa` _adds repository to the system_
-  - [ ] Enable driver at "Software & Updates" -> "Additional Drivers"
-  - [ ] `sudo reboot` _reboots the system_
-  - [ ] "Settings" -> "Devices" -> "Screens" -> Drag screens to the right order and put the 144hz to 144hz
 
 - byobu
   - [ ] `byobu-enable` _enables byobu as login shell_
@@ -55,8 +49,6 @@ My task list after intalling Ubuntu 18.04
   - [ ] `git config --global user.name "Robbert Korving"` -> `git config --global user.email "r.korving@gmail.com"` -> `git config --global core.editor vim` -> `git config --global merge.tool kdiff3`
 
 - [gimp](http://www.gimp.org/)
-  - [ ] `sudo add-apt-repository ppa:otto-kesselgulasch/gimp`
-  - [ ] `sudo apt-get update`
   - [ ] `sudo apt-get install gimp`
   - [ ] `bewerken` -> `voorkeuren` -> `interface` -> `taal` = `Engels [en_US]` -> restart gimpapti
 
@@ -66,9 +58,9 @@ My task list after intalling Ubuntu 18.04
   - [ ] `pip3 install --user thefuck` -> `eval $(thefuck --alias)` -> `~/.zshrc`
   - [ ] `sudo apt install flameshot`
   - [ ] `sudo apt install virtualbox`
-  - [ ] [docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) `deb [arch=amd64] https://download.docker.com/linux/ubuntu eoan stable` -> `/etc/apt/sources.list.d/docker.list` -> `sudo usermod -aG docker $USER`
+  - [ ] [docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) `sudo apt-get install docker.io` -> `sudo usermod -aG docker $USER`
   - [ ] install [vagrant](https://www.vagrantup.com/downloads.html)
-  - [ ] [nodejs](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions)
-  - [ ] `sudo npm install npm@latest -g`
+  - [ ] [nodejs](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)
+  - [ ] `sudo -H npm install npm@latest -g`
   - [ ] [git-cola](https://github.com/git-cola/git-cola#run-from-source)
   - [ ] [Sublime](https://www.sublimetext.com)
