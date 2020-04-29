@@ -8,7 +8,7 @@ My task list after intalling Ubuntu 20.04
   - [ ] `sudo apt update` _updates repositories_
   - [ ] `sudo apt dist-upgrade` _upgrades packages to latest version_
   - [ ] `sudo apt install ubuntu-restricted-extras $(check-language-support)` _installs Microsoft fonts, extra media decoders and missing translations_
-  - [ ] `sudo apt install vim byobu gdebi-core kdiff3-qt pgadmin3 dia git python3-pip python3-pyqt5 curl` _installs dependencies and software I use_
+  - [ ] `sudo apt install vim byobu gdebi-core kdiff3-qt dia git python3-pip python3-pyqt5 curl` _installs dependencies and software I use_
   - [ ] `sudo -H pip3 install --upgrade pip` _updates python3-pip_
   - [ ] `gsettings set org.gnome.desktop.peripherals.mouse accel-profile 'flat'` _disables mouse acceleration_
   - [ ] "Settings" -> "Starter" -> "Display on" -> "All screens"
@@ -50,14 +50,18 @@ My task list after intalling Ubuntu 20.04
 
 - [gimp](http://www.gimp.org/)
   - [ ] `sudo apt-get install gimp`
-  - [ ] `bewerken` -> `voorkeuren` -> `interface` -> `taal` = `Engels [en_US]` -> restart gimpapti
+  - [ ] `bewerken` -> `voorkeuren` -> `interface` -> `taal` = `Engels [en_US]` -> restart gimp
 
 - misc
   - [ ] `sudo snap install spotify`
   - [ ] `sudo snap install discord`
+  - [ ] `sudo snap install obs-studio`
+  - [ ] `sudo snap install ffmpeg`
+  - [ ] `sudo snap install vlc`
   - [ ] `pip3 install --user thefuck` -> `eval $(thefuck --alias)` -> `~/.zshrc`
   - [ ] `sudo apt install flameshot`
   - [ ] `sudo apt install virtualbox`
+  - [ ] `sudo apt install handbrake`
   - [ ] [docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) `sudo apt-get install docker.io` -> `sudo usermod -aG docker $USER`
   - [ ] install [vagrant](https://www.vagrantup.com/downloads.html)
   - [ ] [nodejs](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)
