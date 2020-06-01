@@ -61,7 +61,7 @@ My task list after intalling Ubuntu 20.04
   - [ ] `sudo apt install flameshot`
   - [ ] [virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions) -> `deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian focal contrib` in `/etc/apt/sources.list.d/virtualbox.list` -> `wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -` -> `sudo apt update` -> `sudo apt install virtualbox-6.1`
   - [ ] [handbrake](https://handbrake.fr/) `sudo add-apt-repository ppa:stebbins/handbrake-releases` -> `sudo apt install handbrake-gtk`
-  - [ ] [docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) `sudo apt-get install docker.io` -> `sudo usermod -aG docker $USER`
+  - [ ] [docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -` -> `echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list` -> `sudo apt update` -> `sudo apt install docker-ce docker-ce-cli containerd.io` -> `sudo usermod -aG docker $USER`
   - [ ] install [vagrant](https://www.vagrantup.com/downloads.html)
   - [ ] [nodejs](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)
   - [ ] `sudo -H npm install npm@latest -g`
