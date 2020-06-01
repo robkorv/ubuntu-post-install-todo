@@ -57,9 +57,9 @@ My task list after intalling Ubuntu 20.04
   - [ ] `sudo snap install discord`
   - [ ] `sudo snap install obs-studio`
   - [ ] `sudo snap install ffmpeg`
-  - [ ] `pip3 install --user thefuck` -> `eval $(thefuck --alias)` -> `~/.zshrc`
+  - [ ] `pip3 install --user thefuck` -> `eval $(thefuck --alias)` in `~/.zshrc`
   - [ ] `sudo apt install flameshot`
-  - [ ] `sudo apt install virtualbox`
+  - [ ] [virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions) -> `deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian focal contrib` in `/etc/apt/sources.list.d/virtualbox.list` -> `wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -` -> `sudo apt update` -> `sudo apt install virtualbox-6.1`
   - [ ] [handbrake](https://handbrake.fr/) `sudo add-apt-repository ppa:stebbins/handbrake-releases` -> `sudo apt install handbrake-gtk`
   - [ ] [docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) `sudo apt-get install docker.io` -> `sudo usermod -aG docker $USER`
   - [ ] install [vagrant](https://www.vagrantup.com/downloads.html)
