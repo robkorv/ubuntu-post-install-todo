@@ -60,7 +60,7 @@ My task list after intalling Ubuntu 20.04
   - [ ] `pip3 install --user thefuck` -> `eval $(thefuck --alias)` -> `~/.zshrc`
   - [ ] `sudo apt install flameshot`
   - [ ] `sudo apt install virtualbox`
-  - [ ] `sudo apt install handbrake`
+  - [ ] [handbrake](https://handbrake.fr/) `sudo add-apt-repository ppa:stebbins/handbrake-releases` -> `sudo apt install handbrake-gtk`
   - [ ] [docker](https://docs.docker.com/install/linux/docker-ce/ubuntu/) `sudo apt-get install docker.io` -> `sudo usermod -aG docker $USER`
   - [ ] install [vagrant](https://www.vagrantup.com/downloads.html)
   - [ ] [nodejs](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)
