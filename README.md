@@ -57,7 +57,6 @@ My task list after intalling Ubuntu 20.04
   - [ ] `sudo snap install discord`
   - [ ] `sudo snap install obs-studio`
   - [ ] `sudo snap install ffmpeg`
-  - [ ] `sudo snap install vlc`
   - [ ] `pip3 install --user thefuck` -> `eval $(thefuck --alias)` -> `~/.zshrc`
   - [ ] `sudo apt install flameshot`
   - [ ] `sudo apt install virtualbox`
