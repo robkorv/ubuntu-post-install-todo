@@ -5,6 +5,7 @@ My task list after intalling Ubuntu 20.04
 -   stuff
 
     -   [ ] `sudo ufw enable` _enables firewall_
+    -   [ ] `sudo ufw allow from 192.168.0.0/16` _allow incomming traffic from lan_ 
     -   [ ] `sudo apt update` _updates repositories_
     -   [ ] `sudo apt dist-upgrade` _upgrades packages to latest version_
     -   [ ] `sudo apt install ubuntu-restricted-extras $(check-language-support)` _installs Microsoft fonts, extra media decoders and missing translations_
