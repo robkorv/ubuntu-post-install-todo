@@ -12,7 +12,9 @@ My task list after intalling Ubuntu 20.04
     -   [ ] `sudo apt install vim byobu gdebi-core kdiff3-qt dia git python3-pip python3-pyqt5 curl` _installs dependencies and software I use_
     -   [ ] `sudo -H pip3 install --upgrade pip` _updates python3-pip_
     -   [ ] `gsettings set org.gnome.desktop.peripherals.mouse accel-profile 'flat'` _disables mouse acceleration_
-    -   [ ] "Settings" -> "Starter" -> "Display on" -> "All screens"
+    -   [ ] "Settings" -> "Appearance" -> "Show on" -> "All displays"
+    -   [ ] "Settings" -> "Appearance" -> "Windows colors" -> "Dark"
+    -   [ ] "Settings" -> "Displays" -> "Primary display" -> "Most left screen"
     -   [ ] Cleanup Start bar
 
 -   Start firefox
