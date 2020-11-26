@@ -73,7 +73,7 @@ My task list after intalling Ubuntu 20.04
     -   [ ] [handbrake](https://handbrake.fr/) `sudo add-apt-repository ppa:stebbins/handbrake-releases` -> `sudo apt install handbrake-gtk`
     -   [ ] [docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -` -> `echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list` -> `sudo apt update` -> `sudo apt install docker-ce docker-ce-cli containerd.io` -> `sudo usermod -aG docker $USER` -> `newgrp docker` -> `sudo systemctl enable docker`
     -   [ ] install [vagrant](https://www.vagrantup.com/downloads.html)
-    -   [ ] [nodejs](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)
+    -   [ ] [nodejs](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) <-- install latest [LTS](https://nodejs.org/en/about/releases/)
     -   [ ] `sudo -H npm install npm@latest -g`
     -   [ ] [git-cola](https://github.com/git-cola/git-cola#run-from-source)
     -   [ ] [Sublime](https://www.sublimetext.com)
