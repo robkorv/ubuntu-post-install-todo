@@ -68,7 +68,7 @@ My task list after intalling Ubuntu 20.04
     -   [ ] `sudo snap install obs-studio`
     -   [ ] `sudo snap install ffmpeg`
     -   [ ] `pip3 install --user thefuck` -> `eval $(thefuck --alias)` in `~/.zshrc`
-    -   [ ] `sudo apt install flameshot`
+    -   [ ] `sudo snap install shutter`
     -   [ ] [virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions) -> `deb [arch=amd64] https://download.virtualbox.org/virtualbox/debian focal contrib` in `/etc/apt/sources.list.d/virtualbox.list` -> `wget -q https://www.virtualbox.org/download/oracle_vbox_2016.asc -O- | sudo apt-key add -` -> `sudo apt update` -> `sudo apt install virtualbox-6.1`
     -   [ ] [handbrake](https://handbrake.fr/) `sudo add-apt-repository ppa:stebbins/handbrake-releases` -> `sudo apt install handbrake-gtk`
     -   [ ] [docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -` -> `echo "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list` -> `sudo apt update` -> `sudo apt install docker-ce docker-ce-cli containerd.io` -> `sudo usermod -aG docker $USER` -> `newgrp docker` -> `sudo systemctl enable docker`
