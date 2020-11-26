@@ -14,7 +14,7 @@ My task list after intalling Ubuntu 20.04
     -   [ ] `gsettings set org.gnome.desktop.peripherals.mouse accel-profile 'flat'` _disables mouse acceleration_
     -   [ ] "Settings" -> "Appearance" -> "Show on" -> "All displays"
     -   [ ] "Settings" -> "Appearance" -> "Windows colors" -> "Dark"
-    -   [ ] "Settings" -> "Displays" -> "Primary display" -> "Most left screen"
+    -   [ ] "Settings" -> "Displays" -> "Primary display" -> "Most right screen"
     -   [ ] Cleanup Start bar
 
 -   Start firefox
