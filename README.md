@@ -15,6 +15,7 @@ My task list after intalling Ubuntu 20.04
     -   [ ] "Settings" -> "Appearance" -> "Show on" -> "All displays"
     -   [ ] "Settings" -> "Appearance" -> "Windows colors" -> "Dark"
     -   [ ] "Settings" -> "Displays" -> "Primary display" -> "Most right screen"
+    -   [ ] `gsettings set org.gnome.desktop.calendar show-weekdate true` _enables week numbers in calendar widget_
     -   [ ] Cleanup Start bar
 
 -   Start firefox
