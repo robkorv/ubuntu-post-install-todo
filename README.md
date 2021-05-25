@@ -78,3 +78,4 @@ My task list after intalling Ubuntu 20.04
     -   [ ] `sudo -H npm install npm@latest -g`
     -   [ ] [git-cola](https://github.com/git-cola/git-cola#run-from-source)
     -   [ ] [Sublime](https://www.sublimetext.com)
+    -   [ ] [DBeaver](https://dbeaver.io/download/#ppa)
