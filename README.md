@@ -60,8 +60,7 @@ My task list after intalling Ubuntu 20.04
 
 -   [gimp](http://www.gimp.org/)
 
-    -   [ ] `sudo apt-get install gimp`
-    -   [ ] `bewerken` -> `voorkeuren` -> `interface` -> `taal` = `Engels [en_US]` -> restart gimp
+    -   [ ] `sudo apt install gimp`
 
 -   misc
     -   [ ] `sudo snap install spotify`
