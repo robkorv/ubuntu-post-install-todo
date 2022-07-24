@@ -9,7 +9,7 @@ My task list after intalling Ubuntu 22.04
     -   [ ] `sudo apt update` _updates repositories_
     -   [ ] `sudo apt dist-upgrade` _upgrades packages to latest version_
     -   [ ] `sudo apt install ubuntu-restricted-extras $(check-language-support)` _installs Microsoft fonts, extra media decoders and missing translations_
-    -   [ ] `sudo apt install vim byobu gdebi-core kdiff3-qt dia git python3-pip python3-pyqt5 curl` _installs dependencies and software I use_
+    -   [ ] `sudo apt install vim byobu gdebi-core kdiff3-qt dia git python3-pip curl` _installs dependencies and software I use_
     -   [ ] `pip install --upgrade pip` _updates python3-pip_
     -   [ ] `gsettings set org.gnome.desktop.peripherals.mouse accel-profile 'flat'` _disables mouse acceleration_
     -   [ ] "Settings" -> "Wif-Fi" -> "Disable"
@@ -79,6 +79,6 @@ My task list after intalling Ubuntu 22.04
     -   [ ] [docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker.gpg` -> `echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list` -> `sudo apt update` -> `sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin` -> `sudo usermod -aG docker $USER` -> `newgrp docker` -> `sudo systemctl enable docker.service` -> `sudo systemctl enable containerd.service`
     -   [ ] install [vagrant](https://www.vagrantup.com/downloads.html) `curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/vagrant.gpg` -> `echo "deb [signed-by=/usr/share/keyrings/vagrant.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/vagrant.list` -> `sudo apt update` -> `sudo apt install vagrant`
     -   [ ] [](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) <-- install latest [LTS](https://nodejs.org/en/about/releases/) --> `sudo -H npm install npm@latest --location=global` _updates global npm, without writing root owned files in current user's home dir_
-    -   [ ] [git-cola](https://github.com/git-cola/git-cola#run-from-source)
+    -   [ ] [git-cola](https://git-cola.github.io/) -> `sudo apt install git-cola`
     -   [ ] [Sublime](https://www.sublimetext.com)
     -   [ ] [DBeaver](https://dbeaver.io/download/#ppa)
