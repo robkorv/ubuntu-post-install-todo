@@ -1,6 +1,6 @@
 # ubuntu-post-install-todo
 
-My task list after intalling Ubuntu 20.04
+My task list after intalling Ubuntu 22.04
 
 -   stuff
 
@@ -10,10 +10,14 @@ My task list after intalling Ubuntu 20.04
     -   [ ] `sudo apt dist-upgrade` _upgrades packages to latest version_
     -   [ ] `sudo apt install ubuntu-restricted-extras $(check-language-support)` _installs Microsoft fonts, extra media decoders and missing translations_
     -   [ ] `sudo apt install vim byobu gdebi-core kdiff3-qt dia git python3-pip python3-pyqt5 curl` _installs dependencies and software I use_
-    -   [ ] `sudo -H pip3 install --upgrade pip` _updates python3-pip_
+    -   [ ] `pip install --upgrade pip` _updates python3-pip_
     -   [ ] `gsettings set org.gnome.desktop.peripherals.mouse accel-profile 'flat'` _disables mouse acceleration_
-    -   [ ] "Settings" -> "Appearance" -> "Show on" -> "All displays"
-    -   [ ] "Settings" -> "Appearance" -> "Windows colors" -> "Dark"
+    -   [ ] "Settings" -> "Wif-Fi" -> "Disable"
+    -   [ ] "Settings" -> "Bluetooth" -> "Disable"
+    -   [ ] "Settings" -> "Appearance" -> "Style" -> "Dark"
+    -   [ ] "Settings" -> "Appearance" -> "Desktop Icons" -> "Show Personal folder" -> "Disable"
+    -   [ ] "Settings" -> "Appearance" -> "Dock" -> "Show on" -> "All displays"
+    -   [ ] "Settings" -> "Appearance" -> "Configure dock behaviour" -> "Include Unmounted Volumes" -> "Disable"
     -   [ ] "Settings" -> "Displays" -> "Primary display" -> "Most right screen"
     -   [ ] `gsettings set org.gnome.desktop.calendar show-weekdate true` _enables week numbers in calendar widget_
     -   [ ] Cleanup Start bar
