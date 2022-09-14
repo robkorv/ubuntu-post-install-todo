@@ -53,8 +53,6 @@ My task list after intalling Ubuntu 22.04
 
     antigen apply
     ```
-
-    -   [ ] Antigen package on Ubuntu is broken, see https://github.com/zsh-users/antigen/issues/659. Fix `sudo curl -o /usr/share/zsh-antigen/antigen.zsh -sL git.io/antigen` _overwrites antigen script with the complete version_
     -   [ ] close current terminal and start a new one. zsh should now be enabled
 
 -   git
