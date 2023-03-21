@@ -83,5 +83,5 @@ My task list after intalling Ubuntu 22.04
     -   [ ] install [vagrant](https://www.vagrantup.com/downloads.html) `curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/vagrant.gpg` -> `echo "deb [signed-by=/usr/share/keyrings/vagrant.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/vagrant.list` -> `sudo apt update` -> `sudo apt install vagrant`
     -   [ ] [nodejs](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) <-- install latest [LTS](https://nodejs.org/en/about/releases/) --> `sudo -H npm install npm@latest -g` _updates global npm, without writing root owned files in current user's home dir_
     -   [ ] [git-cola](https://git-cola.github.io/) -> `sudo apt install git-cola`
-    -   [ ] [Sublime](https://www.sublimetext.com)
+    -   [ ] https://code.visualstudio.com/download
     -   [ ] [DBeaver](https://dbeaver.io/download/#ppa)
