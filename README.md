@@ -9,7 +9,7 @@ My task list after intalling Ubuntu 22.04
     -   [ ] `sudo apt update` _updates repositories_
     -   [ ] `sudo apt dist-upgrade` _upgrades packages to latest version_
     -   [ ] `sudo apt install ubuntu-restricted-extras $(check-language-support)` _installs Microsoft fonts, extra media decoders and missing translations_
-    -   [ ] `sudo apt install vim byobu gdebi-core kdiff3-qt dia git python3-pip curl` _installs dependencies and software I use_
+    -   [ ] `sudo apt install vim byobu gdebi-core kdiff3-qt git python3-pip curl` _installs dependencies and software I use_
     -   [ ] `pip install --upgrade pip` _updates python3-pip_
     -   [ ] `gsettings set org.gnome.desktop.peripherals.mouse accel-profile 'flat'` _disables mouse acceleration_
     -   [ ] "Settings" -> "Wif-Fi" -> "Disable"
