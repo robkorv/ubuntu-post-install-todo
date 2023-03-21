@@ -71,7 +71,7 @@ My task list after intalling Ubuntu 22.04
 
 -   misc
     -   [ ] `sudo snap install spotify`
-    -   [ ] `sudo snap install discord`
+    -   [ ] https://discord.com/download
     -   [ ] `sudo snap install ffmpeg`
     -   [ ] `pip install --user thefuck` -> `eval $(thefuck --alias)` in `~/.zshrc`
     -   [ ] `sudo apt install shutter`
