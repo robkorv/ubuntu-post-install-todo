@@ -58,7 +58,12 @@ My task list after intalling Ubuntu 22.04
 -   git
 
     -   [ ] [generate ssh](https://gist.github.com/robkorv/592b46e8ff9742d74ca4a3f894857dee) -> [add ssh github](https://github.com/settings/ssh), [add ssh gitlab](https://gitlab.com/profile/keys)
-    -   [ ] `git config --global user.name "Robbert Korving"` -> `git config --global user.email "r.korving@gmail.com"` -> `git config --global core.editor vim` -> `git config --global merge.tool kdiff3`
+    -   [ ] `git config --global user.name "Robbert Korving"`
+    -   [ ] `git config --global user.email "r.korving@gmail.com"`
+    -   [ ] `git config --global core.editor vim`
+    -   [ ] `git config --global merge.tool kdiff3`
+    -   [ ] `git config --global fetch.prune true`
+    -   [ ] `git config --global rebase.autosquash true`
 
 -   [gimp](http://www.gimp.org/)
 
