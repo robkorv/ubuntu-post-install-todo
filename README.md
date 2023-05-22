@@ -70,7 +70,7 @@ My task list after intalling Ubuntu 22.04
     -   [ ] https://discord.com/download
     -   [ ] `sudo snap install ffmpeg`
     -   [ ] `pip install --user thefuck` -> `eval $(thefuck --alias)` in `~/.zshrc`
-    -   [ ] [virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions) -> `echo "deb [arch=amd64 signed-by=/usr/share/keyrings/oracle-virtualbox-2016.gpg] https://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list` -> `wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --dearmor --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg` -> `sudo apt update` -> `sudo apt install virtualbox-6.1`
+    -   [ ] [virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions) -> `echo "deb [arch=amd64 signed-by=/usr/share/keyrings/oracle-virtualbox-2016.gpg] https://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list` -> `wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --dearmor --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg` -> `sudo apt update` -> `sudo apt install virtualbox-7.0`
     -   [ ] [Flatpak](https://flatpak.org/setup/Ubuntu) -> `sudo apt install flatpak` -> `sudo apt install gnome-software-plugin-flatpak` -> `flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo` -> Reboot
     -   [ ] [OBS Studio](https://obsproject.com) -> https://flathub.org/apps/details/com.obsproject.Studio
     -   [ ] [handbrake](https://handbrake.fr/) -> https://flathub.org/apps/details/fr.handbrake.ghb
