@@ -9,7 +9,7 @@ My task list after intalling Ubuntu 22.04
     -   [ ] `sudo apt update` _updates repositories_
     -   [ ] `sudo apt dist-upgrade` _upgrades packages to latest version_
     -   [ ] `sudo apt install ubuntu-restricted-extras $(check-language-support)` _installs Microsoft fonts, extra media decoders and missing translations_
-    -   [ ] `sudo apt install vim byobu gdebi-core kdiff3-qt git python3-pip curl` _installs dependencies and software I use_
+    -   [ ] `sudo apt install vim byobu gdebi-core kdiff3-qt git python3-pip curl gimp shutter git-cola` _installs dependencies and software I use_
     -   [ ] `pip install --upgrade pip` _updates python3-pip_
     -   [ ] `gsettings set org.gnome.desktop.peripherals.mouse accel-profile 'flat'` _disables mouse acceleration_
     -   [ ] "Settings" -> "Wif-Fi" -> "Disable"
@@ -65,16 +65,11 @@ My task list after intalling Ubuntu 22.04
     -   [ ] `git config --global fetch.prune true`
     -   [ ] `git config --global rebase.autosquash true`
 
--   [gimp](http://www.gimp.org/)
-
-    -   [ ] `sudo apt install gimp`
-
 -   misc
     -   [ ] `sudo snap install spotify`
     -   [ ] https://discord.com/download
     -   [ ] `sudo snap install ffmpeg`
     -   [ ] `pip install --user thefuck` -> `eval $(thefuck --alias)` in `~/.zshrc`
-    -   [ ] `sudo apt install shutter`
     -   [ ] [virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions) -> `echo "deb [arch=amd64 signed-by=/usr/share/keyrings/oracle-virtualbox-2016.gpg] https://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list` -> `wget -O- https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --dearmor --yes --output /usr/share/keyrings/oracle-virtualbox-2016.gpg` -> `sudo apt update` -> `sudo apt install virtualbox-6.1`
     -   [ ] [Flatpak](https://flatpak.org/setup/Ubuntu) -> `sudo apt install flatpak` -> `sudo apt install gnome-software-plugin-flatpak` -> `flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo` -> Reboot
     -   [ ] [OBS Studio](https://obsproject.com) -> https://flathub.org/apps/details/com.obsproject.Studio
@@ -82,6 +77,5 @@ My task list after intalling Ubuntu 22.04
     -   [ ] [docker](https://docs.docker.com/engine/install/ubuntu/#install-using-the-repository) `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker.gpg` -> `echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list` -> `sudo apt update` -> `sudo apt install docker-ce docker-ce-cli containerd.io docker-compose-plugin` -> `sudo usermod -aG docker $USER` -> `newgrp docker` -> `sudo systemctl enable docker.service` -> `sudo systemctl enable containerd.service`
     -   [ ] install [vagrant](https://www.vagrantup.com/downloads.html) `curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/vagrant.gpg` -> `echo "deb [signed-by=/usr/share/keyrings/vagrant.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/vagrant.list` -> `sudo apt update` -> `sudo apt install vagrant`
     -   [ ] [nodejs](https://github.com/nodesource/distributions/blob/master/README.md#debinstall) <-- install latest [LTS](https://nodejs.org/en/about/releases/) --> `sudo -H npm install npm@latest -g` _updates global npm, without writing root owned files in current user's home dir_
-    -   [ ] [git-cola](https://git-cola.github.io/) -> `sudo apt install git-cola`
     -   [ ] https://code.visualstudio.com/download
     -   [ ] [DBeaver](https://dbeaver.io/download/#ppa)
