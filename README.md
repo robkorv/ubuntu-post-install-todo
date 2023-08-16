@@ -37,7 +37,7 @@ My task list after intalling Ubuntu 22.04
 
     -   [ ] `byobu-enable` _enables byobu as login shell_
     -   [ ] `byobu` -> `ctrl+a` -> "(1) Screen mode (GNU Screen's default escape sequence)" _starts byobu and sets the default escape sequence_
-    -   [ ] use byobu as default shell -> `ctrl+alt+t` -> "edit" -> "preferences" -> "command" -> "Run custom command" -> `/usr/bin/byobu`
+    -   [ ] use byobu as default shell -> `ctrl+alt+t` -> "preferences" -> "Unamed profile" -> "command" -> "Run custom command instead of my shell" -> `/usr/bin/byobu`
 
 -   zsh
 
