@@ -23,6 +23,7 @@ My task list after intalling Ubuntu 22.04
     -   [ ] "Settings" -> "Displays" -> "Primary display" -> "Most right screen"
     -   [ ] "Settings" -> "Multitasking" -> "Workspaces" -> "Fixed number of workspaces"
     -   [ ] "Settings" -> "Multitasking" -> "Application Switching" -> "Include applications from each monitor only"
+    -   [ ] "Settings" -> "Sound" -> "Volume Levels" -> "Press speaker left of System Sounds to mute it"
     -   [ ] `gsettings set org.gnome.desktop.calendar show-weekdate true` _enables week numbers in calendar widget_
     -   [ ] Cleanup Start bar
 
