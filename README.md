@@ -31,13 +31,15 @@ My task list after intalling Ubuntu 22.04
 
     -   [ ] Install and Logon to LastPass
     -   [ ] login to firefox sync
-    -   [ ] enable bookmark bar
+    -   [ ] alt -> "View" -> "Toolbars" -> "Bookmarks toolbar" -> "Always show"
+    -   [ ] menu -> "More tools" -> "Customize toolbar...". Do cleanup, add home button next to reload.
+    -   [ ] extensions -> Pin the ones that are used allot
 
 -   byobu
 
     -   [ ] `byobu-enable` _enables byobu as login shell_
-    -   [ ] `byobu` -> `ctrl+a` -> "(1) Screen mode (GNU Screen's default escape sequence)" _starts byobu and sets the default escape sequence_
-    -   [ ] use byobu as default shell -> `ctrl+alt+t` -> "preferences" -> "Unamed profile" -> "command" -> "Run custom command instead of my shell" -> `/usr/bin/byobu`
+    -   [ ] `byobu` -> ctrl+a -> "(1) Screen mode (GNU Screen's default escape sequence)" _starts byobu and sets the default escape sequence_
+    -   [ ] use byobu as default shell -> ctrl+alt+t -> "preferences" -> "Unamed profile" -> "command" -> "Run custom command instead of my shell" -> `/usr/bin/byobu`
 
 -   zsh
 
