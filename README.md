@@ -7,10 +7,12 @@ My task list after intalling Ubuntu 22.04
     -   [ ] `sudo ufw enable` _enables firewall_
     -   [ ] `sudo ufw allow from 192.168.0.0/16` _allow incomming traffic from lan_ 
     -   [ ] `sudo apt update` _updates repositories_
-    -   [ ] `sudo apt dist-upgrade` _upgrades packages to latest version_
+    -   [ ] `sudo apt full-upgrade` _upgrades packages to latest version_
     -   [ ] `sudo apt install ubuntu-restricted-extras $(check-language-support)` _installs Microsoft fonts, extra media decoders and missing translations_
     -   [ ] `sudo apt install vim byobu gdebi-core kdiff3-qt git python3-pip curl gimp shutter git-cola` _installs dependencies and software I use_
     -   [ ] `pip install --upgrade pip` _updates python3-pip_
+    -   [ ] `ubuntu-drivers devices` _Show all devices which need drivers and which packages provides them_
+    -   [ ] `sudo ubuntu-drivers install` _Installs the recommended drivers packages for your devices_
     -   [ ] `gsettings set org.gnome.desktop.peripherals.mouse accel-profile 'flat'` _disables mouse acceleration_
     -   [ ] "Settings" -> "Wif-Fi" -> "Disable"
     -   [ ] "Settings" -> "Bluetooth" -> "Disable"
@@ -19,6 +21,8 @@ My task list after intalling Ubuntu 22.04
     -   [ ] "Settings" -> "Appearance" -> "Dock" -> "Show on" -> "All displays"
     -   [ ] "Settings" -> "Appearance" -> "Configure dock behaviour" -> "Include Unmounted Volumes" -> "Disable"
     -   [ ] "Settings" -> "Displays" -> "Primary display" -> "Most right screen"
+    -   [ ] "Settings" -> "Multitasking" -> "Workspaces" -> "Fixed number of workspaces"
+    -   [ ] "Settings" -> "Multitasking" -> "Application Switching" -> "Include applications from each monitor only"
     -   [ ] `gsettings set org.gnome.desktop.calendar show-weekdate true` _enables week numbers in calendar widget_
     -   [ ] Cleanup Start bar
 
