@@ -50,14 +50,8 @@ My task list after intalling Ubuntu 22.04
     ```bash
     source /usr/share/zsh-antigen/antigen.zsh
     antigen use oh-my-zsh
-
     antigen bundle git
-    antigen bundle pip
-    antigen bundle python
-    antigen bundle vagrant
-
     antigen theme robbyrussell
-
     antigen apply
     ```
     -   [ ] close current terminal and start a new one. zsh should now be enabled
