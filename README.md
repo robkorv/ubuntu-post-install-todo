@@ -19,9 +19,9 @@ My task list after intalling Ubuntu 22.04
     -   [ ] "Settings" -> "Appearance" -> "Style" -> "Dark"
     -   [ ] "Settings" -> "Appearance" -> "Desktop Icons" -> "Show Personal folder" -> "Disable"
     -   [ ] "Settings" -> "Appearance" -> "Dock" -> "Show on" -> "All displays"
-    -   [ ] "Settings" -> "Appearance" -> "Configure dock behaviour" -> "Include Unmounted Volumes" -> "Disable"
+    -   [ ] "Settings" -> "Appearance" -> "Configure dock behaviour" -> "Include Unmounted Volumes" -> "Disable" && "Show Trash" -> "Disable"
     -   [ ] "Settings" -> "Displays" -> "Primary display" -> "Most right screen"
-    -   [ ] "Settings" -> "Multitasking" -> "Workspaces" -> "Fixed number of workspaces"
+    -   [ ] "Settings" -> "Multitasking" -> "Workspaces" -> "Fixed number of workspaces" -> "1"
     -   [ ] "Settings" -> "Multitasking" -> "Application Switching" -> "Include applications from each monitor only"
     -   [ ] "Settings" -> "Sound" -> "Volume Levels" -> "Press speaker right of System Sounds to mute it"
     -   [ ] `gsettings set org.gnome.desktop.calendar show-weekdate true` _enables week numbers in calendar widget_
