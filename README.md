@@ -80,7 +80,7 @@ My task list after intalling Ubuntu 24.04
     - `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker.gpg`
     - `echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list`
     - `sudo apt update`
-    - `sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`
+    - `sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`
     - `sudo usermod -aG docker $USER`
     - `newgrp docker`
     - `sudo systemctl enable docker.service`
@@ -90,6 +90,6 @@ My task list after intalling Ubuntu 24.04
     - `echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/vagrant.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/vagrant.list`
     - `sudo apt update`
     - `sudo apt install vagrant`
-  - [ ] [nodejs](https://github.com/nodesource/distributions/blob/master/README.md#debinstall)
+  - [ ] [nodejs](https://github.com/nodesource/distributions/blob/master/README.md#debian-and-ubuntu-based-distributions)
     - install latest [LTS](https://nodejs.org/en/about/releases/)
     - `sudo -H npm install npm@latest -g` _updates global npm, without writing root owned files in current user's home dir_
