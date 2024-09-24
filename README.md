@@ -5,7 +5,7 @@ My task list after intalling Ubuntu 22.04
 -   stuff
 
     -   [ ] `sudo ufw enable` _enables firewall_
-    -   [ ] `sudo ufw allow from 192.168.0.0/16` _allow incomming traffic from lan_ 
+    -   [ ] `sudo ufw allow from 192.168.0.0/16` _allow incomming traffic from lan_
     -   [ ] `sudo apt update` _updates repositories_
     -   [ ] `sudo apt full-upgrade` _upgrades packages to latest version_
     -   [ ] `sudo apt install ubuntu-restricted-extras $(check-language-support)` _installs Microsoft fonts, extra media decoders and missing translations_
@@ -15,14 +15,14 @@ My task list after intalling Ubuntu 22.04
     -   [ ] `gsettings set org.gnome.desktop.peripherals.mouse accel-profile 'flat'` _disables mouse acceleration_
     -   [ ] "Settings" -> "Wif-Fi" -> "Disable"
     -   [ ] "Settings" -> "Bluetooth" -> "Disable"
-    -   [ ] "Settings" -> "Appearance" -> "Style" -> "Dark"
-    -   [ ] "Settings" -> "Appearance" -> "Desktop Icons" -> "Show Personal folder" -> "Disable"
-    -   [ ] "Settings" -> "Appearance" -> "Dock" -> "Show on" -> "All displays"
-    -   [ ] "Settings" -> "Appearance" -> "Configure dock behaviour" -> "Include Unmounted Volumes" -> "Disable" && "Show Trash" -> "Disable"
     -   [ ] "Settings" -> "Displays" -> "Primary display" -> "Most right screen"
+    -   [ ] "Settings" -> "Sound" -> "Volume Levels" -> "Press speaker of System Sounds to mute it"
     -   [ ] "Settings" -> "Multitasking" -> "Workspaces" -> "Fixed number of workspaces" -> "1"
     -   [ ] "Settings" -> "Multitasking" -> "Application Switching" -> "Include applications from each monitor only"
-    -   [ ] "Settings" -> "Sound" -> "Volume Levels" -> "Press speaker right of System Sounds to mute it"
+    -   [ ] "Settings" -> "Appearance" -> "Style" -> "Dark"
+    -   [ ] "Settings" -> "Ubuntu Desktop" -> "Desktop Icons" -> "Show Personal folder" -> "Disable"
+    -   [ ] "Settings" -> "Ubuntu Desktop" -> "Dock" -> "Show on" -> "All displays"
+    -   [ ] "Settings" -> "Ubuntu Desktop" -> "Dock" -> "Configure dock behaviour" -> "Include Unmounted Volumes" -> "Disable" && "Show Trash" -> "Disable"
     -   [ ] `gsettings set org.gnome.desktop.calendar show-weekdate true` _enables week numbers in calendar widget_
     -   [ ] Cleanup Start bar
 
