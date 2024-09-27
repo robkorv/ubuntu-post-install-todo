@@ -9,10 +9,9 @@ My task list after intalling Ubuntu 24.04
   - [ ] `sudo apt update` _updates repositories_
   - [ ] `sudo apt full-upgrade` _upgrades packages to latest version_
   - [ ] `sudo apt install ubuntu-restricted-extras $(check-language-support)` _installs Microsoft fonts, extra media decoders and missing translations_
-  - [ ] `sudo apt install vim byobu gdebi-core kdiff3 git python3-pip curl gimp shutter git-cola` _installs dependencies and software I use_
-  - [ ] `ubuntu-drivers devices` _Show all devices which need drivers and which packages provides them_
-  - [ ] `sudo ubuntu-drivers install` _Installs the recommended drivers packages for your devices_
+  - [ ] `sudo apt install byobu curl gdebi-core gimp git git-cola kdiff3 lnav python3-pip python3-venv shutter vim` _installs dependencies and software I use_
   - [ ] `gsettings set org.gnome.desktop.peripherals.mouse accel-profile 'flat'` _disables mouse acceleration_
+  - [ ] `gsettings set org.gnome.desktop.calendar show-weekdate true` _enables week numbers in calendar widget_
   - [ ] "Settings" -> "Wif-Fi" -> "Disable"
   - [ ] "Settings" -> "Bluetooth" -> "Disable"
   - [ ] "Settings" -> "Displays" -> "Primary display" -> "Most right screen"
@@ -23,7 +22,6 @@ My task list after intalling Ubuntu 24.04
   - [ ] "Settings" -> "Ubuntu Desktop" -> "Desktop Icons" -> "Show Personal folder" -> "Disable"
   - [ ] "Settings" -> "Ubuntu Desktop" -> "Dock" -> "Show on" -> "All displays"
   - [ ] "Settings" -> "Ubuntu Desktop" -> "Dock" -> "Configure dock behaviour" -> "Include Unmounted Volumes" -> "Disable" && "Show Trash" -> "Disable"
-  - [ ] `gsettings set org.gnome.desktop.calendar show-weekdate true` _enables week numbers in calendar widget_
   - [ ] Cleanup Start bar
 
 - Start firefox
@@ -67,9 +65,15 @@ My task list after intalling Ubuntu 24.04
   - [ ] `git config --global rebase.autosquash true`
 
 - misc
-  - [ ] `sudo snap install spotify discord slack dbeaver-ce`
+  - [ ] `sudo snap install discord slack dbeaver-ce spotify`
   - [ ] `sudo snap install code --classic`
-  - [ ] `pip install --user thefuck` -> `eval $(thefuck --alias)` in `~/.zshrc`
+  - [ ] [thefuck](https://github.com/nvbn/thefuck)
+    - `python3 -m venv ~/venv --prompt "~/venv"` _creates a virtual environment in your home_
+    - `source ~/venv/bin/activate` in `~/.zshrc` _activates the venv in every terminal session, type deactivate to get out of it_
+    - `pip install "thefuck@git+https://github.com/nvbn/thefuck" setuptools` -> `eval $(thefuck --alias)` in `~/.zshrc`
+  - [ ] [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)
+    - `sudo apt install pcscd`
+    - extract latest and run `./desktop_integration.sh -i`
   - [ ] [OBS Studio](https://obsproject.com) -> https://launchpad.net/~obsproject/+archive/ubuntu/obs-studio
   - [ ] [virtualbox](https://www.virtualbox.org/wiki/Linux_Downloads#Debian-basedLinuxdistributions)
     - `echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/oracle-virtualbox-2016.gpg] https://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list`
@@ -91,5 +95,5 @@ My task list after intalling Ubuntu 24.04
     - `sudo apt update`
     - `sudo apt install vagrant`
   - [ ] [nodejs](https://github.com/nodesource/distributions/blob/master/README.md#debian-and-ubuntu-based-distributions)
-    - install latest [LTS](https://nodejs.org/en/about/releases/)
+    - install latest [LTS](https://github.com/nodejs/release?tab=readme-ov-file#release-schedule)
     - `sudo -H npm install npm@latest -g` _updates global npm, without writing root owned files in current user's home dir_
