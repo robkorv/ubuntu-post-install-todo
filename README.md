@@ -10,7 +10,6 @@ My task list after intalling Ubuntu 24.04
   - [ ] `sudo apt full-upgrade` _upgrades packages to latest version_
   - [ ] `sudo apt install ubuntu-restricted-extras $(check-language-support)` _installs Microsoft fonts, extra media decoders and missing translations_
   - [ ] `sudo apt install byobu curl gdebi-core gimp git git-cola kdiff3 lnav python3-pip python3-venv shutter vim` _installs dependencies and software I use_
-  - [ ] `gsettings set org.gnome.desktop.peripherals.mouse accel-profile 'flat'` _disables mouse acceleration_
   - [ ] `gsettings set org.gnome.desktop.calendar show-weekdate true` _enables week numbers in calendar widget_
   - [ ] "Settings" -> "Wif-Fi" -> "Disable"
   - [ ] "Settings" -> "Bluetooth" -> "Disable"
@@ -22,6 +21,7 @@ My task list after intalling Ubuntu 24.04
   - [ ] "Settings" -> "Ubuntu Desktop" -> "Desktop Icons" -> "Show Personal folder" -> "Disable"
   - [ ] "Settings" -> "Ubuntu Desktop" -> "Dock" -> "Show on" -> "All displays"
   - [ ] "Settings" -> "Ubuntu Desktop" -> "Dock" -> "Configure dock behaviour" -> "Include Unmounted Volumes" -> "Disable" && "Show Trash" -> "Disable"
+  - [ ] "Settings" -> "Mouse & Touchpad" -> "Mouse" -> "Mouse Acceleration" -> ""Disable"
   - [ ] Cleanup Start bar
 
 - Start firefox
