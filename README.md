@@ -51,8 +51,8 @@ My task list after intalling Ubuntu 24.04
   antigen theme robbyrussell
   antigen apply
   ```
-
-  - [ ] close current terminal and start a new one. zsh should now be enabled
+  - [ ] https://github.com/junegunn/fzf, use the checkout repo install method. Ubuntu's version is old.
+  - [ ] https://github.com/ajeetdsouza/zoxide, use the external repo method. Ubuntu's version is old.
 
 - git
 
@@ -63,6 +63,7 @@ My task list after intalling Ubuntu 24.04
   - [ ] `git config --global merge.tool kdiff3`
   - [ ] `git config --global fetch.prune true`
   - [ ] `git config --global rebase.autosquash true`
+  - [ ] `git config --global push.autoSetupRemote true`
 
 - misc
   - [ ] `sudo snap install discord slack dbeaver-ce spotify`
