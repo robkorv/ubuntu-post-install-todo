@@ -1,26 +1,23 @@
 # ubuntu-post-install-todo
 
-My task list after intalling Ubuntu 24.04
+My task list after intalling Kubuntu 26.04
 
 - stuff
   - [ ] `sudo ufw enable` _enables firewall_
   - [ ] `sudo ufw allow from 192.168.0.0/16` _allow incomming traffic from lan_
   - [ ] `sudo apt update` _updates repositories_
   - [ ] `sudo apt full-upgrade` _upgrades packages to latest version_
-  - [ ] `sudo apt install ubuntu-restricted-extras $(check-language-support)` _installs Microsoft fonts, extra media decoders and missing translations_
+  - [ ] `sudo apt install kubuntu-restricted-extras $(check-language-support)` _installs Microsoft fonts, extra media decoders and missing translations_
   - [ ] `sudo apt install byobu curl gdebi-core gimp git git-cola kdiff3 lnav python3-pip python3-venv shutter vim` _installs dependencies and software I use_
-  - [ ] `gsettings set org.gnome.desktop.calendar show-weekdate true` _enables week numbers in calendar widget_
-  - [ ] "Settings" -> "Wif-Fi" -> "Disable"
-  - [ ] "Settings" -> "Bluetooth" -> "Disable"
-  - [ ] "Settings" -> "Displays" -> "Primary display" -> "Most right screen"
-  - [ ] "Settings" -> "Sound" -> "Volume Levels" -> "Press speaker of System Sounds to mute it"
-  - [ ] "Settings" -> "Multitasking" -> "Workspaces" -> "Fixed number of workspaces" -> "1"
-  - [ ] "Settings" -> "Multitasking" -> "Application Switching" -> "Include applications from each monitor only"
-  - [ ] "Settings" -> "Appearance" -> "Style" -> "Dark"
-  - [ ] "Settings" -> "Ubuntu Desktop" -> "Desktop Icons" -> "Show Personal folder" -> "Disable"
-  - [ ] "Settings" -> "Ubuntu Desktop" -> "Dock" -> "Show on" -> "All displays"
-  - [ ] "Settings" -> "Ubuntu Desktop" -> "Dock" -> "Configure dock behaviour" -> "Include Unmounted Volumes" -> "Disable" && "Show Trash" -> "Disable"
-  - [ ] "Settings" -> "Mouse & Touchpad" -> "Mouse" -> "Mouse Acceleration" -> ""Disable"
+  - [ ] Right click clock in taskbar -> Configure Digital Clock -> Calendar -> Show week numbers
+  - [ ] Right click network in taskbar -> Disable wifi
+  - [ ] "Settings" -> "Connected Devices" -> Disable Bluetooth
+  - [ ] "Settings" -> "Displays & Monitor" -> "Display Configuration" -> "Primary" on the most right screen
+  - [ ] "Settings" -> "Displays & Monitor" -> "Screen Edges" -> "Edge barrier" to 0
+  - [ ] "Settings" -> "Color and Themes" -> "Kubuntu Dark"
+  - [ ] "Settings" -> "Wallpaper" -> "Set for all screens", "Kubuntu Black"
+  - [ ] "Settings" -> "Screen Locking" -> "Configure Appearance...", "Kubuntu Black"
+  - [ ] "Settings" -> "Mouse & Touchpad" -> "Mouse" -> Disable pointer acceleration
   - [ ] Cleanup Start bar
 
 - Start firefox
@@ -33,7 +30,7 @@ My task list after intalling Ubuntu 24.04
 - byobu
   - [ ] `byobu-enable` _enables byobu as login shell_
   - [ ] `byobu` -> ctrl+a -> "(1) Screen mode (GNU Screen's default escape sequence)" _starts byobu and sets the default escape sequence_
-  - [ ] use byobu as default shell -> ctrl+alt+t -> "preferences" -> "Unamed profile" -> "command" -> "Run custom command instead of my shell" -> `/usr/bin/byobu`
+  - [ ] use byobu as default shell -> ctrl+alt+t -> "Settings" -> "Manage profiles" -> Create a byobu profile, make it default, command: `/usr/bin/byobu`
 
 - zsh
   - [ ] `sudo apt install zsh-antidote`
