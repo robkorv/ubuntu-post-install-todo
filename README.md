@@ -56,6 +56,8 @@ My task list after intalling Ubuntu 24.04
   ohmyzsh/ohmyzsh path:plugins/git
   ```
 
+  - [ ] restart terminal to activate zsh
+
   - [ ] https://github.com/junegunn/fzf, checkout repo, run `./install`
   - [ ] https://github.com/ajeetdsouza/zoxide, checkout repo, run `./install`, add the following to `~/.zshrc`
 
