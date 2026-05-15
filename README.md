@@ -74,12 +74,9 @@ My task list after intalling Ubuntu 24.04
   - [ ] `git config --global push.autoSetupRemote true`
 
 - misc
-  - [ ] `sudo snap install discord slack dbeaver-ce spotify`
+  - [ ] `sudo snap install discord slack spotify`
   - [ ] `sudo snap install code --classic`
-  - [ ] [thefuck](https://github.com/nvbn/thefuck)
-    - `python3 -m venv ~/venv --prompt "~/venv"` _creates a virtual environment in your home_
-    - `source ~/venv/bin/activate` in `~/.zshrc` _activates the venv in every terminal session, type deactivate to get out of it_
-    - `pip install "thefuck@git+https://github.com/nvbn/thefuck" setuptools` -> `eval $(thefuck --alias)` in `~/.zshrc`
+  - [ ] `sudo snap install dbeaver-ce --classic`
   - [ ] [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)
     - `sudo apt install pcscd`
     - extract latest and run `./desktop_integration.sh -i`
