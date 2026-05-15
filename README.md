@@ -56,8 +56,12 @@ My task list after intalling Ubuntu 24.04
   ohmyzsh/ohmyzsh path:plugins/git
   ```
 
-  - [ ] https://github.com/junegunn/fzf, use the checkout repo install method. Ubuntu's version is old.
-  - [ ] https://github.com/ajeetdsouza/zoxide, use the external repo method. Ubuntu's version is old.
+  - [ ] https://github.com/junegunn/fzf, checkout repo, run `./install`
+  - [ ] https://github.com/ajeetdsouza/zoxide, checkout repo, run `./install`, add the following to `~/.zshrc`
+
+  ```bash
+  eval "$(zoxide init zsh --cmd cd)"
+  ```
 
 - git
   - [ ] [generate ssh](https://gist.github.com/robkorv/592b46e8ff9742d74ca4a3f894857dee) -> [add ssh github](https://github.com/settings/ssh), [add ssh gitlab](https://gitlab.com/profile/keys)
