@@ -106,6 +106,7 @@ My task list after intalling Ubuntu 26.04
     - `sudo apt install vagrant`
     - Vagrant not available for 26.04 via their ppa: https://github.com/hashicorp/vagrant/issues/13811
     - Download and install deb manually from https://releases.hashicorp.com/vagrant/
-  - [ ] [nodejs](https://github.com/nodesource/distributions/blob/master/README.md#debian-and-ubuntu-based-distributions)
-    - install latest [LTS](https://github.com/nodejs/release?tab=readme-ov-file#release-schedule)
-    - `sudo -H npm install npm@latest -g` _updates global npm, without writing root owned files in current user's home dir_
+  - [ ] [nodejs](https://nodejs.org/en/download)
+    - install [nvm](https://github.com/nvm-sh/nvm#install--update-script)
+    - restart terminal session
+    - install [active LTS](https://github.com/nodejs/release#release-schedule) via [nvm](https://github.com/nvm-sh/nvm#long-term-support) with `nvm install --lts`
