@@ -96,7 +96,7 @@ My task list after intalling Ubuntu 26.04
     - `sudo apt update`
     - `sudo apt install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin`
     - `sudo usermod -aG docker $USER`
-    - `newgrp docker`
+    - `newgrp docker` <-- not installed by default in 26.04, re-login for it to activate
     - `sudo systemctl enable docker.service`
     - `sudo systemctl enable containerd.service`
   - [ ] install [vagrant](https://www.vagrantup.com/downloads.html)
