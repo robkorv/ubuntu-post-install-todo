@@ -3,7 +3,6 @@
 My task list after intalling Ubuntu 24.04
 
 - stuff
-
   - [ ] `sudo ufw enable` _enables firewall_
   - [ ] `sudo ufw allow from 192.168.0.0/16` _allow incomming traffic from lan_
   - [ ] `sudo apt update` _updates repositories_
@@ -25,7 +24,6 @@ My task list after intalling Ubuntu 24.04
   - [ ] Cleanup Start bar
 
 - Start firefox
-
   - [ ] Install and Logon to LastPass
   - [ ] login to firefox sync
   - [ ] alt -> "View" -> "Toolbars" -> "Bookmarks toolbar" -> "Always show"
@@ -33,29 +31,35 @@ My task list after intalling Ubuntu 24.04
   - [ ] extensions -> Pin the ones that are used allot
 
 - byobu
-
   - [ ] `byobu-enable` _enables byobu as login shell_
   - [ ] `byobu` -> ctrl+a -> "(1) Screen mode (GNU Screen's default escape sequence)" _starts byobu and sets the default escape sequence_
   - [ ] use byobu as default shell -> ctrl+alt+t -> "preferences" -> "Unamed profile" -> "command" -> "Run custom command instead of my shell" -> `/usr/bin/byobu`
 
 - zsh
-
-  - [ ] `sudo apt install zsh-antigen` _installs zsh-antigen_
+  - [ ] `sudo apt install zsh-antidote`
   - [ ] `printf "set -g default-shell /usr/bin/zsh\nset -g default-command /usr/bin/zsh" > .config/byobu/.tmux.conf` _enables zsh in byobu_
-  - [ ] add the following to `~/.zshrc` _enables oh my zsh with robbyrussell theme as well as some auto-complete bundles_
+  - [ ] add the following to `~/.zshrc`
 
   ```bash
-  source /usr/share/zsh-antigen/antigen.zsh
-  antigen use oh-my-zsh
-  antigen bundle git
-  antigen theme robbyrussell
-  antigen apply
+  ZSH_THEME=robbyrussell
+
+  source /usr/share/zsh-antidote/antidote.zsh
+  antidote load
   ```
+
+  - [ ] add the following to `~/.zsh_plugins.txt`
+
+  ```
+  getantidote/use-omz
+
+  ohmyzsh/ohmyzsh path:lib
+  ohmyzsh/ohmyzsh path:plugins/git
+  ```
+
   - [ ] https://github.com/junegunn/fzf, use the checkout repo install method. Ubuntu's version is old.
   - [ ] https://github.com/ajeetdsouza/zoxide, use the external repo method. Ubuntu's version is old.
 
 - git
-
   - [ ] [generate ssh](https://gist.github.com/robkorv/592b46e8ff9742d74ca4a3f894857dee) -> [add ssh github](https://github.com/settings/ssh), [add ssh gitlab](https://gitlab.com/profile/keys)
   - [ ] `git config --global user.name "Robbert Korving"`
   - [ ] `git config --global user.email "r.korving@gmail.com"`
