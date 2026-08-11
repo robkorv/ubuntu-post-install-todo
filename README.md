@@ -8,7 +8,7 @@ My task list after intalling Ubuntu 26.04
   - [ ] `sudo apt update` _updates repositories_
   - [ ] `sudo apt full-upgrade` _upgrades packages to latest version_
   - [ ] `sudo apt install ubuntu-restricted-extras $(check-language-support)` _installs Microsoft fonts, extra media decoders and missing translations_
-  - [ ] `sudo apt install byobu curl gdebi-core gimp git git-cola kdiff3 lnav python3-pip python3-venv shutter vim` _installs dependencies and software I use_
+  - [ ] `sudo apt install curl gdebi-core gimp git git-cola kdiff3 lnav python3-pip python3-venv vim` _installs dependencies and software I use_
   - [ ] `gsettings set org.gnome.desktop.interface gtk-enable-primary-paste true` _enables pasting with middle mouse button_
   - [ ] "Settings" -> "Wif-Fi" -> "Disable"
   - [ ] "Settings" -> "Bluetooth" -> "Disable"
@@ -31,11 +31,6 @@ My task list after intalling Ubuntu 26.04
   - [ ] alt -> "View" -> "Toolbars" -> "Bookmarks toolbar" -> "Always show"
   - [ ] menu -> "More tools" -> "Customize toolbar...". Do cleanup, add home button next to reload.
   - [ ] extensions -> Pin the ones that are used allot
-
-- byobu
-  - [ ] `byobu-enable` _enables byobu as login shell_
-  - [ ] `byobu` -> ctrl+a -> "(1) Screen mode (GNU Screen's default escape sequence)" _starts byobu and sets the default escape sequence_
-  - [ ] use byobu as default shell -> ctrl+alt+t -> "preferences" -> "Unamed profile" -> "command" -> "Run custom command instead of my shell" -> `/usr/bin/byobu`
 
 - zsh
   - [ ] `sudo apt install zsh-antidote`
