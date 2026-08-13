@@ -32,6 +32,16 @@ My task list after intalling Ubuntu 26.04
   - [ ] menu -> "More tools" -> "Customize toolbar...". Do cleanup, add home button next to reload.
   - [ ] extensions -> Pin the ones that are used allot
 
+- git
+  - [ ] [generate ssh](https://gist.github.com/robkorv/592b46e8ff9742d74ca4a3f894857dee) -> [add ssh github](https://github.com/settings/ssh), [add ssh gitlab](https://gitlab.com/profile/keys)
+  - [ ] `git config --global user.name "Robbert Korving"`
+  - [ ] `git config --global user.email "r.korving@gmail.com"`
+  - [ ] `git config --global core.editor vim`
+  - [ ] `git config --global merge.tool kdiff3`
+  - [ ] `git config --global fetch.prune true`
+  - [ ] `git config --global rebase.autosquash true`
+  - [ ] `git config --global push.autoSetupRemote true`
+
 - zsh
   - [ ] `sudo apt install zsh-antidote`
   - [ ] `printf "set -g default-shell /usr/bin/zsh\nset -g default-command /usr/bin/zsh" > .config/byobu/.tmux.conf` _enables zsh in byobu_
@@ -52,25 +62,13 @@ My task list after intalling Ubuntu 26.04
   ohmyzsh/ohmyzsh path:lib
   ohmyzsh/ohmyzsh path:plugins/git
   ```
-
-  - [ ] restart terminal to activate zsh
-
+  
   - [ ] https://github.com/junegunn/fzf, checkout repo, run `./install`
   - [ ] https://github.com/ajeetdsouza/zoxide, checkout repo, run `./install`, add the following to `~/.zshrc`
 
   ```bash
   eval "$(zoxide init zsh --cmd cd)"
   ```
-
-- git
-  - [ ] [generate ssh](https://gist.github.com/robkorv/592b46e8ff9742d74ca4a3f894857dee) -> [add ssh github](https://github.com/settings/ssh), [add ssh gitlab](https://gitlab.com/profile/keys)
-  - [ ] `git config --global user.name "Robbert Korving"`
-  - [ ] `git config --global user.email "r.korving@gmail.com"`
-  - [ ] `git config --global core.editor vim`
-  - [ ] `git config --global merge.tool kdiff3`
-  - [ ] `git config --global fetch.prune true`
-  - [ ] `git config --global rebase.autosquash true`
-  - [ ] `git config --global push.autoSetupRemote true`
 
 - misc
   - [ ] `sudo snap install discord slack spotify`
