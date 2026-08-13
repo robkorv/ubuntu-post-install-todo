@@ -70,7 +70,7 @@ My task list after intalling Ubuntu 26.04
   ```
 
 - misc
-  - [ ] `sudo snap install discord slack spotify`
+  - [ ] `sudo snap install discord spotify`
   - [ ] `sudo snap install code --classic`
   - [ ] `sudo snap install dbeaver-ce --classic`
   - [ ] [Yubico Authenticator](https://www.yubico.com/products/yubico-authenticator/)
