@@ -47,8 +47,6 @@ My task list after intalling Ubuntu 26.04
   - [ ] add the following to `~/.zshrc`
 
   ```bash
-  ZSH_THEME=robbyrussell
-
   source /usr/share/zsh-antidote/antidote.zsh
   antidote load
   ```
@@ -60,7 +58,10 @@ My task list after intalling Ubuntu 26.04
 
   ohmyzsh/ohmyzsh path:lib
   ohmyzsh/ohmyzsh path:plugins/git
+  ohmyzsh/ohmyzsh path:themes/robbyrussell.zsh-theme
   ```
+
+  _load the theme here instead of with `ZSH_THEME` in `~/.zshrc`: `use-omz` loads `ZSH_THEME` lazily on the first prompt, so a venv activated in `~/.zshrc` saves the unthemed prompt and restores it on `deactivate`_
   
   - [ ] https://github.com/junegunn/fzf, checkout repo, run `./install`
   - [ ] https://github.com/ajeetdsouza/zoxide, checkout repo, run `./install`, add the following to `~/.zshrc`
