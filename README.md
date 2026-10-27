@@ -42,6 +42,13 @@ My task list after intalling Ubuntu 26.04
   - [ ] `git config --global rebase.autosquash true`
   - [ ] `git config --global push.autoSetupRemote true`
 
+- vim
+  - [ ] add the following to `~/.vimrc` _disables the mouse, which vim enables by default since 26.04_
+
+  ```vim
+  set mouse=
+  ```
+
 - zsh
   - [ ] `sudo apt install zsh-antidote`
   - [ ] add the following to `~/.zshrc`
